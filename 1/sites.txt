@@ -1,0 +1,19 @@
+One: a fabulously wonderful resort catering to the rich and famous (real or imagined)
+The Equinox Resort tag line beneath the logo is, “luxury collection golf resort & spa”.  It is located in southern Vermont and charges downtown New York prices for its accommodations. Some of the activities listed in the website’s “Things to Do” drop down, are:
+The British School of Falconry
+Land Rover Experience Driving School
+Archery
+Orvis Fly Fishing School
+And by gosh, after a long day of Falconry who wouldn’t want to enjoy a couple of steaks at the resort’s Chop House. Seriously though, this would be an interesting website to do-over. The website exudes pompousness. I would be challenging to try to lower the grandiose tone in a redesign. 
+http://www.equinoxresort.com
+
+  
+Two: a local small business (not a chain) that you walk by or frequent
+The Blackbird Café is a mom and pop cafe I frequent in the rural community of Groton–the town I live in. They offer great coffee and sandwiches. Local artists are encouraged to display their work. The walls are also adorned with folk art paintings from Central America. It’s a great place to get a cup of coffee and converse with neighbors and fellow townies. The coffee comes from George Howell’s Terroir Coffee Company–Mr. Howell used to own Coffee Connection–which used to be the best place to sip and buy coffee in Harvard Square until they were bought out by Starbucks.
+Their current website doesn’t reflect the actual café. That is, their current website sucks. http://www.blackbirdcafegroton.com
+
+
+Three: a lobbying group or political party (real or fake)
+The town I live in has an organization called the Groton Board of Trade. You could categorize the organization as a kind of lobbying group. Members include: realtors, retail shop owners, selectmen, and even a few designers. It was started a two years ago to support local businesses and farms. The current website is mostly HTML with minimum CSS styling–it is in desperate need of a design makeover
+http://grotonboardoftrade.com
+
