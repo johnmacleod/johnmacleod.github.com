@@ -49,14 +49,29 @@ body {
 
 }
 
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+	}
+
+.clearfix { display: inline-block; }
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }
+
+
 #lowerContainer {
 
-	height: 850px;
+/*	height: 850px;*/
 	margin-top: -24px;
 	/*margin-top: -8px;*/
 	width: 1000px;
 	background-color: white;
 	margin: 0 auto 0 auto;
+	clear: both;
 }
 
 #nextMeeting {
@@ -151,6 +166,8 @@ p {
 }
 
 footer {
+
+	margin: -20px auto 0 auto;
 	width: 1000px;
 	height: 60px;
 	background-color: #7D5429;
@@ -158,25 +175,29 @@ footer {
 
 
 .horizontalMenu li {
-	float: left;
+	display: inline;
 	border-right-width: 1px;
 	border-right-style: solid;
 	border-right-color: white;
-	border-right-
+
 
 }
 
 .horizontalMenu {
-	margin: 0 0 0 190px;
+	width: 1000px;
+	margin: 15px 0;
 	padding: 0;
 	list-style: none;
 	overflow: hidden;
+	text-align: center;
 }
+
+
 
 .horizontalMenu a {
 	color: white;
 	margin-top: 10px;
-	display: block;
+	display: inline;
 	line-height: 15px;
 	padding: 0 10px;
 	text-decoration: none;
@@ -188,10 +209,14 @@ footer {
 	border-right-style: none;
 }
 
+.ctr-horiz-nav {
+	text-align: center;
+}
+
 .join-login {
 	position: absolute;
 	display: block;
-	margin-left: 50%;
+	margin-left: 55%;
 	margin-top: -236px;
 	font-family:Arial, Helvetica, sans-serif;
 	background-color: #fff; 
