@@ -376,9 +376,8 @@ table {
 }
 
 /* ==========================================================================
-   End normalize / Start John's css
+   End normalize / Start John's CSS
    ========================================================================== */
-
 
 
 #container {
@@ -388,27 +387,40 @@ table {
 
 }
 
-header #logo-header {
+header {
+  height: 160px;
+  padding: 5px 0 0 0;
+}
+
+header #logo {
   position: relative;
   margin: 0;
 }
 
-
-#logo-header h1 a {
-
-  margin: 20px auto 0 auto;
+#logo h1 a {
+  margin: 0 auto;
   display:block; 
   width:606px; 
   height:69px;  
   background:url(bbc-logo-01.png) no-repeat; 
   text-indent:-9999px;
-  background-position: center;
-
 }
+
+#lowerContainer {
+  width: 1000px;
+  background-color: #fff;
+  display: block;
+  margin: 0 auto;
+}
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
 
 .left-horz-menu {
   list-style: none;
-  margin-left: 0;
+  margin-left: -20px;
   margin-top: 0;
   position: absolute;
 }
@@ -421,9 +433,8 @@ header #logo-header {
 }
 
 .left-horz-menu a {
-  line-height: 30px;
+  line-height: 30px; /* Vertical button height */
   display: block;
-  height: 30px;
   background-color: #000;
   color: #fff;
   text-decoration: none;
@@ -435,7 +446,7 @@ header #logo-header {
 
 .right-horz-menu {
   list-style: none;
-  margin-left: 500px;
+  margin-left: 465px; /**************** Horizontal positioning **********************/
   margin-top: 0;
   position: absolute;
 }
@@ -448,9 +459,8 @@ header #logo-header {
 }
 
 .right-horz-menu a {
-  line-height: 30px;
+  line-height: 30px; /* Vertical button height */
   display: block;
-  height: 30px;
   background-color: #000;
   color: #fff;
   text-decoration: none;
@@ -460,38 +470,32 @@ header #logo-header {
   padding-right: 17px;
 }
 
-#lowerContainer {
-  width: 1000px;
-  height: 300px;
-  background-color: yellow;
-  display: block;
-  margin: 0 auto;
+.social-links {
+  position: absolute;
+  margin-left: 915px;  /* Horizontal positioning  */
+  margin-top: 0px;
 }
 
 #left-home {
   float: left;
   width: 332px;
-  height: 100px;
   background-color: #fff;
 }
 
 #mid-home {
   float: left;
   width: 332px;
-  height: 100px;
-
 }
 
 #right-home {
   float: right;
   width: 332px;
-  height: 100px;
   background-color: #fff;
 }
 
 #left-home h1 {
   display: inline-block;
-  line-height: 30px;
+  line-height: 20px; /* Vertical button height */
   width: 290px;
   background-color: #B13C31;
   color: #fff;
@@ -515,7 +519,7 @@ header #logo-header {
 
 #right-home h1 {
   display: inline-block;
-  line-height: 30px;
+  line-height: 20px; /* Vertical button height */
   width: 290px;
   background-color: #B13C31;
   color: #fff;
@@ -565,3 +569,9 @@ p {
 .clearfix { display: inline-block; }
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
+
+.bottom-dweller {
+  width: 1000px;
+  height: 50px;
+  background-color: #fff;
+}
