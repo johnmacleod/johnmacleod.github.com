@@ -61,7 +61,7 @@ audio:not([controls]) {
  */
 
 html {
-    font-family: Arial, Helvetica, sans-serif; /* 1 */
+    font-family: sans-serif; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
     -ms-text-size-adjust: 100%; /* 2 */
 }
@@ -69,12 +69,11 @@ html {
 /*
  * Removes default margin.
  */
-/*
+
 body {
-    background: url(burlap-00.jpg);
-    margin: 0 auto;
+    margin: 0;
 }
-*/
+
 /* ==========================================================================
    Links
    ========================================================================== */
@@ -375,10 +374,7 @@ table {
     border-spacing: 0;
 }
 
-/* ==========================================================================
-   End normalize / Start John's CSS
-   ===============================================
-*/
+
 
 body {
 	background-color: #4A1414;
@@ -618,3 +614,5 @@ footer {
 	font-family:Arial, Helvetica, sans-serif;
 	background-color: #fff;
 }
+
+

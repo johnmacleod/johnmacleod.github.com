@@ -1,0 +1,60 @@
+	/*
+			Load CSS before JavaScript
+		*/
+		
+		/*
+			Slides container
+			Important:
+			Set the width of your slides container
+			Set to display none, prevents content flash
+		*/
+		#slides .slides_container {
+			width:1000px;
+			height:234px;
+			display:none;
+			z-index: -1000;
+		}
+
+		/*
+			Each slide
+			Important:
+			Set the width of your slides
+			If height not specified height will be set by the slide content
+			Set to display block
+		*/
+		
+		#slides .slides_container div {
+			width:1000px;
+			height:234px;
+			display:block;
+		}
+		
+		/*
+			Slides container
+			Important:
+			Set the width of your slides container
+			Set to display none, prevents content flash
+	
+		/*
+			Each slide
+			Important:
+			Set the width of your slides
+			If height not specified height will be set by the slide content
+			Set to display block
+		*/
+		
+		#slides_three .slides_container div {
+			width:200px;
+			height:100px;
+			display:block;
+		}
+		
+		/* 
+			Example only
+		*/
+		.pagination .current a {
+			color:red;
+		}
+		hr {
+			background:#efefef;
+		}
