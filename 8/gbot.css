@@ -594,8 +594,8 @@ footer {
 .join-login {
 	position: absolute;
 	display: block;
-	margin-left: 55%;
-	margin-top: -236px;
+	right: 25%;
+	top: 0;
 	font-family:Arial, Helvetica, sans-serif;
 	background-color: #fff; 
 	height: 25px;
