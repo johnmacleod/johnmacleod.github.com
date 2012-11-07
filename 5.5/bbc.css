@@ -14,20 +14,21 @@ body {
 }
 
 .logo {
-	position: absolute;
-	margin: 20px 0 0 20px;
+	/* position: absolute; */
+	/* margin: 20px 0 0 20px; */
+	margin: 0 auto 0 auto;
 }
 
 .social-links {
 	position: absolute;
-	margin: 87px 0 0 924px;
+	/* margin: 87px 0 0 924px; */
+
 }
 
-.horizontal-menu {
-	list-style: none;
-	position: absolute;
-	margin-left: 460px;
-	margin-top: 85px;
+.upper-container {
+	top: 0px;
+	height: 300px;
+
 }
 
 .clearfix:after {
@@ -42,7 +43,7 @@ body {
 .clearfix { display: inline-block; }
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
-
+/*
 .horizontal-menu li {
 	float: left;
 	border-right-width: 1px;
@@ -62,41 +63,49 @@ html[xmlns] .clearfix { display: block; }
 	padding-left: 17px;
 	padding-right: 17px;
 }
-
+*/
 .lower-container {
-	position: absolute;
+	/* position: absolute; */
 	width: 1000px;
-	height: 575px;
-	margin: 135px auto 0 auto;
-	background-color: yellow;
+	/* height: 575px; */
+	/* margin: 135px auto 0 auto; */
+	background-color: #fff;
 }
 
-.vert-menu {
-	position: absolute;
-	width: 100px;
-	margin-left: -20px;
-	margin-right: 20px;
-}
 
-.vertical-menu {
+/*
+.horizontal-menu {
 	list-style: none;
 	margin: 0 0 20px 0;
+}*/
+
+.horiz-menu {
+	/*position: absolute;*/
+	/* width: 1000px; */
 }
 
-.vertical-menu li {
+.horizontal-menu {
+	list-style: none;
+
+	/*position: absolute;*/
+}
+
+.horizontal-menu li {
+	float: left;
 
 }
 
-.vertical-menu a {
+.horizontal-menu a {
 	text-decoration: none;
 	height: 30px;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 15px;
 	color: #fff;
-	padding-left: 10px;
+	/* padding-top: 30px; */
 	height: 30px;
 	width: 88px;
-	display: block;
+	text-decoration: none;
+	display:inline-block;
 	line-height: 30px;
 	background-color: #000;
 	border-bottom-width: 1px;
@@ -104,9 +113,11 @@ html[xmlns] .clearfix { display: block; }
 	border-bottom-color: white;
 }
 
+/*
 .blue-box {
-	margin: 145px 0 0 20px;
+	 margin: 145px 0 0 20px; 
 }
+*/
 
 #main-photo {
 	float: right;
