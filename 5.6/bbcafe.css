@@ -440,8 +440,8 @@ img.displayed {
   text-decoration: none;
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
-  padding-left: 33px;
-  padding-right: 33px;
+  padding-left: 35px;
+  padding-right: 35px;
 }
 
 .right-horz-menu {
@@ -482,8 +482,15 @@ img.displayed {
   background-color: #fff;
 }
 
-#mid-home {
-  float: left;
+#art1 { margin: 0 0 0 20px; }
+#art2 { margin: 0 0 0 144px;
+}
+
+#art3 { margin: 0 0 0 11px; }
+#art4 { margin: 0 0 0 18px; } 
+
+#mid-home { 
+  float: left; 
   width: 332px;
 }
 
@@ -507,14 +514,22 @@ img.displayed {
 
 #mid-home h1 {
   display: inline-block;
-  line-height: 30px;
+  line-height: 20px;
   width: 290px;
-  background-color: #314258;
+  background-color: #B13C31;
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   padding-left: 12px;
   margin: 15px 0 0 17px;
+}
+
+#terroir-coffee {
+  margin: 15px 0 0 22px;
+}
+
+#mem-tea {
+  margin: 15px 0 15px 60px;
 }
 
 #right-home h1 {
@@ -531,15 +546,24 @@ img.displayed {
 
 p {
   width: 262px;
-  font-size: 12px;
+  font-size: 14px;
+  line-height: 20px;
   font-family: Arial, Helvetica, sans-serif;
   color: #333333;
   margin: 0 0 0 40px;
 }
 
+#mid-home p {
+  width: 262px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333333;
+  margin: 10px 0 10px 35px;
+}
+
 #right-home p {
   width: 262px;
-  font-size: 12px;
+  font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
   color: #333333;
   margin: 0 0 0 30px;
@@ -551,6 +575,7 @@ p {
   font-size: 16px;
   color: #314258;
   line-height: 18px;
+  margin: 0 0 28px 0;
 }
 
 #map {
