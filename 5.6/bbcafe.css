@@ -432,7 +432,7 @@ img.displayed {
   border-right-color: white;
 }
 
-.left-horz-menu a {
+.left-horz-menu li a {
   line-height: 30px; /* Vertical button height */
   display: block;
   background-color: #000;
