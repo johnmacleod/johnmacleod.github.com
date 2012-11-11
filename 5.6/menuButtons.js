@@ -1,23 +1,23 @@
 // JavaScript Document
-//	var homeP = 'Vintage Airplane Tshirts
 
 
 	var coffeeT = "Blackbird Cafe | Coffee & Tea"  /* Title text */
 	var landing = "Blackbird Cafe"
 
 	if ( (document.title) == coffeeT ) {
-				$('.left-horz-menu > li > a').eq(3).css('line-height', '26px');
-				$('.left-horz-menu > li > a').eq(3).css('border-top-color', '#000');
-				$('.left-horz-menu > li > a').eq(3).css('border-top-width', '1px');
-				$('.left-horz-menu > li > a').eq(3).css('background-color', '#fff');
-				$('.left-horz-menu > li > a').eq(3).css('color', '#000');
-				$('.left-horz-menu > li > a').eq(3).css('border-top-style', 'solid');
-				$('.left-horz-menu > li > a').eq(3).css('border-top-color', '#000');
-				$('.left-horz-menu > li > a').eq(3).css('border-top-width', '2px');
-				$('.left-horz-menu > li > a').eq(3).css('border-bottom-style', 'solid');
-				$('.left-horz-menu > li > a').eq(3).css('border-bottom-color', '#000');
-				$('.left-horz-menu > li > a').eq(3).css('border-bottom-width', '2px');
-				
+		$('.left-horz-menu > li > a').eq(3).css('background-color', '#909090');
+		$('.left-horz-menu > li > a').eq(3).css('color', '#fff');
+		/* 
+		$('.left-horz-menu > li > a').eq(3).css('line-height', '26px');
+		$('.left-horz-menu > li > a').eq(3).css('border-top-color', '#000');
+		$('.left-horz-menu > li > a').eq(3).css('border-top-width', '1px');
+		$('.left-horz-menu > li > a').eq(3).css('border-top-style', 'solid');
+		$('.left-horz-menu > li > a').eq(3).css('border-top-color', '#000');
+		$('.left-horz-menu > li > a').eq(3).css('border-top-width', '2px');
+		$('.left-horz-menu > li > a').eq(3).css('border-bottom-style', 'solid');
+		$('.left-horz-menu > li > a').eq(3).css('border-bottom-color', '#000');
+		$('.left-horz-menu > li > a').eq(3).css('border-bottom-width', '2px'); 
+				*/
 	} else if ( (document.title) == landing ) {
 
 	}
