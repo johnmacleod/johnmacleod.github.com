@@ -389,8 +389,29 @@ table {
 
 h1 {
   font-family: "ff-cocon-web-pro";
+  font-size: 4em;
+  letter-spacing: .02em;
+}
+
+h2 {
+  font-family: "ff-cocon-web-pro";
   font-size: 3em;
   letter-spacing: .02em;
+
+}
+
+h3 {
+  font-family: "ff-cocon-web-pro";
+  font-size: 2em;
+  letter-spacing: .02em;
+
+}
+
+h4 {
+  font-family: "ff-cocon-web-pro";
+  font-size: 1em;
+  letter-spacing: .02em;
+
 }
 
 
