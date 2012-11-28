@@ -427,17 +427,67 @@ p {
     font-size: 1.2em;
 }
 
-#logo {
-  width: 300px;
+header {
+  height: 11em;
+}
+
+#logoAndText {
+  /*width: 60em;*/
+}
+
+nav {
+  /*padding-top: 10em;*/
+/*  width: 60em;*/
+
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  width: 60em;
+  /*overflow: hidden;*/
+  /*width: 60em;*/
+}
+
+ul li {
   float: left;
+  margin-left: 1.58em;
+/*  border-right-style: solid;
+  border-right-color: white;*/
+}
+
+ul li a {
+  display: block;
+  line-height: 1.6em;
+  width: 13em;
+  color: #fff;
+  background-color: #000;
+  font-family: "report",sans-serif;
+  text-decoration: none;
+  font-size: 1em;
+  text-align: center;
+
+} 
+
+
+#logo {
+ /* width: 18.75em;*/
+ width: 16em;
+  float: left;
+  padding-left: 1.2em;
 }
 
 #dogWalkTag {
+  width: 42em;
   float: left;
 
 }
 
-
+#lower-container {
+  width: 60em;
+}
 
 
 
