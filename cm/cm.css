@@ -395,7 +395,7 @@ table {
 
 h1 {
   font-family: "ff-cocon-web-pro", sans-serif;
-  font-size: 2.85em;
+  font-size: 3.2em;
   letter-spacing: -.04m;
 }
 
@@ -473,13 +473,14 @@ ul li a {
 
 
 #logo {
- /* width: 18.75em;*/
- width: 16em;
+  /* width: 18.75em;*/
+  width: 16em;
   float: left;
   padding-left: 1.2em;
 }
 
 #dogWalkTag {
+  padding-top: 2em;
   width: 42em;
   float: left;
 
