@@ -1,0 +1,59 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Yikes!</title>
+<script src="jquery-1.7.1.min.js"></script>
+<script src='https://raw.github.com/timrwood/moment/1.7.2/min/moment.min.js'></script>
+<script>
+$(document).ready(function() {
+ //var username = 'aplusk';
+ var username = 'sandimanna';
+ console.log(username);
+ var count = 10;
+  console.log(count);
+
+  //var query = "birds";
+  //var url="http://search.twitter.com/search.json?q=" + query + "&rpp=5&include_entities=true&result_type=mixed&callback=?";
+$.getJSON('https://api.twitter.com/1/statuses/user_timeline.json?screen_name=' + username + '&amp;callback=?',
+          function(data) {
+            $.each(data,function() {
+              var tweet = this;
+              var user = tweet.user;
+
+
+              var li = $("<li>").addClass("tweet");           // <li class="tweet">
+
+              $("<img>").attr("src",user.profile_image_url)  // The tweeter's avatar <img src="#">
+                        .appendTo(li);
+
+              var date = moment(tweet.created_at);                // How long ago the tweet was created
+                                                                  // created_at: https://dev.twitter.com/docs/platform-objects/users
+              $("<div>")
+                 .text(date.fromNow())                        // <div class=tweetDate></div>
+                 .addClass("tweetDate")
+                 .appendTo(li);
+
+              $("<div>")                                      // <div class=tweetText"></div>
+                 .text(tweet.text)
+                 .addClass("tweetText")
+                 .appendTo(li);
+
+              li.appendTo("#tweets");                         // Add the new li to <ul id="tweets">
+              console.log(user);
+              console.log(tweet);
+            });
+          });
+});
+</script>
+</head>
+
+<body>
+
+<ul id='tweets'>
+
+</ul>
+
+</body>
+</html>
