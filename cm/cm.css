@@ -559,7 +559,6 @@ ul li a {
   margin-right: 22px;
   float: left;
   width: 33%;
-  height: 208px;
   background-color: green;
 }
 
@@ -578,7 +577,20 @@ img.align-right {
 
   @media screen and (max-width:480px) {
     h1 {font-size: 1.6em;} 
+    h2 {
+      font-size: 1.2em;
+      letter-spacing: normal;
+      font-weight: 400;
+      line-height: normal;
+
+      /*line-height: 0.02em;
+      font-size: 1.5em;
+      font-weight: 400;
+      letter-spacing: .01em;*/
+    } 
+
     h4 {font-size: 0.8em;}
+    p {font-size: 0.8em;}
 
     #logo-content { 
       float:none; 
@@ -601,10 +613,24 @@ img.align-right {
 
     }
 
-    #dog-photo-a,
-    #dog-photo-b {
+    img.small {
+      width: 98%;
+    }
+
+    #welcome-text {
+      width: 22%;
+
+    }
+
+    #dog-photo-a {
       display: none;
     }
+
+     #dog-photo-b  {
+      width: 22%;
+      float: none;
+      margin: 0 0 0 2.5%;
+     }
 
   }
 
