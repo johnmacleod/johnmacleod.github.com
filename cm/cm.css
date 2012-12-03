@@ -76,6 +76,7 @@ html {
 
 body {
     margin: 0 auto;
+
 }
 
 /* ==========================================================================
@@ -405,7 +406,8 @@ html[xmlns] .clearfix { display: block; }
 
 #container {
   width: 60em;
-  background-color: yellow;
+  /*background-color: yellow;*/
+  background-color: #fff;
   margin: 0 auto;
 }
 
@@ -427,7 +429,7 @@ h2 {
   /*letter-spacing: .01em;*/
 
   letter-spacing: normal;
-  line-height: normal
+  line-height: 1.5em;
 
 }
 
@@ -476,7 +478,7 @@ header {
   float: left;
   width: 27%;
   margin-left: 1%;
-  background-color: red;
+  /*background-color: red;*/
   /*min-height: 20%;*/ 
   /*min-height: 50px;*/
 
@@ -489,7 +491,7 @@ header {
   width: 68%;
   float: right; 
   margin-right: 1%;
-  background-color: #fff;
+  /*background-color: #fff;*/
 /*padding-top: 25px;
   padding-left: 25px;*/  
 }
@@ -523,7 +525,7 @@ ul li a {
   line-height: 25px;
   width: 208px;
   color: #fff;
-  background-color: #000;
+  background-color: #A0554E;
   font-family: "report",sans-serif;
   font-weight: 700px;
   text-decoration: none;
@@ -535,7 +537,7 @@ ul li a {
   width: 960px;
   height: auto;
   margin-top: 25px;
-  background-color: orange;
+  /*background-color: orange;*/
 }
 
 #dog-photo-a {
@@ -554,18 +556,21 @@ ul li a {
 }
 
 #welcome-text {
+
+  /*margin-top: -10px;*/
   margin-left: 23px;
   margin-right: 22px;
+  color: #6D5C41;
   float: left;
   width: 33%;
-  background-color: green;
+  background-color: #F9D295;
 }
 
 #mid-lower-wrap {
   width: 960px;
   height: auto;
-  margin-top: 25px;
-  background-color: red;
+  margin-top: 15px;
+  /*background-color: red;*/
 }
 
 #tired-dog-text {
@@ -573,7 +578,7 @@ ul li a {
   margin-right: 22px;
   float: left;
   width: 33%;
-  background-color: green;
+  /*background-color: green;*/
 }
 
 #socialize-dog-text {
@@ -581,8 +586,47 @@ ul li a {
   margin-right: 25px;
   float: right;
   width: 35%;
-  background-color: blue;
+  /*background-color: blue;*/
 }
+
+#color-block {
+  margin-left: 25px;
+  float: left;
+  width: 44%;
+  background-color: #978c6b;
+  height: 208px;
+}
+
+#contact-text {
+  margin-top: 20px;
+  margin-left: 23px;
+  margin-right: 22px;
+  float: left;
+  width: 22%;
+  /*background-color: green;*/
+}
+
+#dog-photo-d {
+  width: 22%;
+  float: right;
+  margin-right: 25px;
+}
+
+footer {
+  width: 960px;
+  height: auto;
+  margin-top: 25px;
+ /* background-color: orange;*/
+}
+
+.para-set {
+  line-height: 0.25em;
+}
+
+.indent {
+  margin: 0 10px 20px 10px;
+}
+
 /*
 img.align-left {
   float: left;
@@ -626,7 +670,6 @@ img.align-right {
       border-top-width: 1px;
       border-top-style: solid;
       border-top-color: #fff;
-
     }
 
     img.small {
@@ -645,15 +688,19 @@ img.align-right {
       display: none;
     }
 
-     #dog-photo-b  {
+    #dog-photo-b  {
       width: 22%;
       float: none;
       margin: 0 0 0 2.5%;
-     }
+    }
 
-     #dog-photo-c {
+    #color-block {
+      display: none;
+    }
+
+    #dog-photo-c {
       float: none;
-     }
+    }
 
   }
 
