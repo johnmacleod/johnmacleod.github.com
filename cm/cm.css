@@ -420,7 +420,9 @@ h1 {
 
 h2 {
   font-family: "ff-cocon-web-pro", sans-serif;
-  font-size: 2.4em;
+  /*font-size: 2.4em;*/
+  line-height: 0.02em;
+  font-size: 1.5em;
   letter-spacing: .01em;
 
 }
@@ -443,7 +445,7 @@ h4 {
 p {
     font-family: "report",sans-serif;
     font-weight: 400;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 header {
@@ -488,17 +490,7 @@ header {
   padding-left: 25px;*/  
 }
 
-img {max-width: 100%;}
 
-  /*@media screen and (max-width:600px)*/
-
-  @media only screen and (min-device-pixel-ratio : 1.5) {
-    h1 {font-size: 1.6em;} 
-    h4 {font-size: 0.8em;}
-
-    #logo-content { float:none; width:18%; margin:0 1%; }
-    #logoText-content { float:none; width:98%; margin:0 1%; padding-top: 0;}
-  }
 
 
 
@@ -517,14 +509,14 @@ ul {
   padding: 0;
   list-style: none;
   text-decoration: none;
-  width:960px;
+  /*width:960px;*/
   /*overflow: hidden;*/
   /*width: 60em;*/
 }
 
 ul li {
   float: left;
-  margin-left: 1.58em;
+  margin-left: 25px;
 /*  border-right-style: solid;
   border-right-color: white;*/
 }
@@ -543,14 +535,77 @@ ul li a {
 
 } 
 
-/*
-#lower-container {
+
+#mid-upper-wrap {
   width: 960px;
+ /* width: 560px;*/
+  height: auto;
+  /*margin: 0 auto;*/
+  margin-top: 25px;
+  background-color: orange;
+
 }
-*/
+
+#dog-photo-a {
+ /* margin: 25px 0 0 25px;*/
+  width: 22%;
+  float: left;
+  margin-left: 25px;
+}
+
+#welcome-text {
+  margin-left: 23px;
+  margin-right: 22px;
+  float: left;
+  width: 33%;
+  height: 208px;
+  background-color: green;
+}
 
 
+img.align-left {
+  float: left;
+  margin-right: 25px;
+}
 
+img.align-right {
+  float: right;
+  margin-left : 25px;
+}
+
+/*img {max-width: 100%;}*/
+
+  @media screen and (max-width:480px) {
+    h1 {font-size: 1.6em;} 
+    h4 {font-size: 0.8em;}
+
+    #logo-content { 
+      float:none; 
+      width:18%; 
+      margin:0 3%; 
+    }
+
+    #logoText-content { 
+      float:none; 
+      width:98%; 
+      margin:0 1%; 
+      padding-top: 0;
+    }
+
+    ul li {
+      float: none;
+      border-top-width: 1px;
+      border-top-style: solid;
+      border-top-color: #fff;
+
+    }
+
+    #dog-photo-a,
+    #dog-photo-b {
+      display: none;
+    }
+
+  }
 
 
 
