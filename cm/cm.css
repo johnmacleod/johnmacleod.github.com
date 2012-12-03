@@ -76,6 +76,8 @@ html {
 
 body {
     margin: 0 auto;
+    /*background-color: #FFECCB;*/
+    background-color: #F9D495;
 
 }
 
@@ -418,6 +420,10 @@ h1 {
   font-size: 3.2em;
   line-height: .01em;
   letter-spacing: -.04em;
+  /*color: #978C6B;*/
+  /*color: #6D5C41;*/
+  /*color: #93694F;*/
+  color: #534632;
 }
 
 h2 {
@@ -429,7 +435,7 @@ h2 {
   /*letter-spacing: .01em;*/
 
   letter-spacing: normal;
-  line-height: 1.5em;
+  line-height: 1.25em;
 
 }
 
@@ -477,22 +483,24 @@ header {
 #logo-content {
   float: left;
   width: 27%;
-  margin-left: 1%;
+  margin-left: 2.5%;
+  margin-bottom: -1%;
   /*background-color: red;*/
   /*min-height: 20%;*/ 
   /*min-height: 50px;*/
 
 }
 
-#logoText-content{
+#logoText-content {
   /* width: 18.75em;*/
   /*width: 226px;*/
-  padding-top:  8%;
+/*  padding-top:  8%;*/
+  margin-top: 5%;
   width: 68%;
   float: right; 
   margin-right: 1%;
   /*background-color: #fff;*/
-/*padding-top: 25px;
+  /*padding-top: 25px;
   padding-left: 25px;*/  
 }
 
@@ -556,14 +564,15 @@ ul li a {
 }
 
 #welcome-text {
-
+  padding-top: 10px;
   /*margin-top: -10px;*/
   margin-left: 23px;
   margin-right: 22px;
   color: #6D5C41;
   float: left;
   width: 33%;
-  background-color: #F9D295;
+  /*background-color: #F9D295;*/
+  background-color: #FFECCB;
 }
 
 #mid-lower-wrap {
@@ -574,18 +583,24 @@ ul li a {
 }
 
 #tired-dog-text {
+  padding-top: 10px;
   margin-left: 23px;
   margin-right: 22px;
+  color: #6D5C41;
   float: left;
   width: 33%;
+  background-color: #FFECCB;
   /*background-color: green;*/
 }
 
 #socialize-dog-text {
+  padding-top: 10px;
   margin-left: 0;
   margin-right: 25px;
   float: right;
   width: 35%;
+  background-color: #FFECCB;
+  color: #6D5C41;
   /*background-color: blue;*/
 }
 
@@ -603,6 +618,7 @@ ul li a {
   margin-right: 22px;
   float: left;
   width: 22%;
+  color: #A0554E;
   /*background-color: green;*/
 }
 
@@ -613,6 +629,7 @@ ul li a {
 }
 
 footer {
+  padding-bottom: 5%;
   width: 960px;
   height: auto;
   margin-top: 25px;
@@ -654,7 +671,7 @@ img.align-right {
 
     #logo-content { 
       float:none; 
-      width:18%; 
+      width: 5%; 
       margin:0 3%; 
     }
 
