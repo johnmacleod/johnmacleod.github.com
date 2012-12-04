@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Camp Maisy | Tweet</title>
+<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script> -->
+<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+<script src='https://raw.github.com/timrwood/moment/1.7.2/min/moment.min.js'></script>
+<link rel="stylesheet" type="text/css" href="cm.css">
+
+<script type="text/javascript" src="//use.typekit.net/zlr7qua.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+<script>
+$(document).ready(function() {
+	 var username = 'sandimanna';
+	 console.log(username);
+	 var count = 50;
+	 console.log(count);
+
+$.getJSON('https://api.twitter.com/1/statuses/user_timeline.json?screen_name=' + username + '&rpp=5&include_entities=true&result_type=mixed&callback=?',
+          function(data) {
+            $.each(data,function() {
+	             var tweet = this;
+	             var user = tweet.user;
+				 var li = $("<li>").addClass("tweet");           // <li class="tweet">
+
+             if(tweet.entities && tweet.entities.media.length > 0) {
+                var image = tweet.entities.media[0].media_url;
+
+                $("<img>").attr("src",image)  	// The tweet's attached image <img src="#">
+                          .appendTo(li);                     
+              }
+
+              var date = moment(tweet.created_at);            // How long ago the tweet was created
+                                                              // created_at: https://dev.twitter.com/docs/platform-objects/users
+              $("<div>")
+                 .text(date.fromNow())                        // <div class=tweetDate></div>
+                 .addClass("tweetDate")
+                 .appendTo(li);
+
+              $("<div>")                                      // <div class=tweetText"></div>
+                 .text(tweet.text)
+                 .addClass("tweetText")
+                 .appendTo(li);
+
+
+
+              li.appendTo("#tweets");                         // Add the new li to <ul id="tweets">
+              console.log(user);
+              console.log(tweet);
+            });
+          });
+});
+</script>
+
+</head>
+<body>
+<div id="container">
+
+	<header>
+
+		<div id="top-header-wrap" class="clearfix">
+
+			<div id="logo-content">
+				<img src="images/cm-logo-04.png"/>
+			</div><!-- END id="logo" -->
+
+			<div id="logoText-content">
+				<h1>Dog Walking & Dog Camp</h1>
+				<h4>...serving Shirley and surrounding towns</h4>
+			</div><!-- END id="tagStuff" -->
+			
+		</div><!-- id="top-header" -->
+		<hr class="show-off">
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">What We Offer</a></li>
+				<li><a href="#">Tweets</a></li>
+				<li><a href="#">Photos</a></li>									
+			</ul>
+		</nav>
+
+	</header>
+
+	<div id="lowertweet-container">
+
+		<div id="mid-uppertweet-wrap" class="clearfix">
+
+			<div id="color-sq-a"></div>
+
+			<div id="tweet-content">
+				<ul id='tweets'>
+			</div><!-- END id="welcome-text" -->
+
+			<div id="color-rct-a"></div>
+
+		</div><!-- END iid="mid-uppertweet-wrap"  -->
+
+
+		<footer class="clearfix">
+			<div id="color-block"></div>
+
+			<div id="contact-text" class="para-set">
+				<h2>Contact</h2>
+				<p>Camp Maisy</p>
+				<p>348 Lynn Fells Pkwy</p>
+				<p>Shirley, MA 01234</p>
+				<p> &nbsp;</p>
+				<p>789-456-1234</p>
+				<p>info@camp-maisy.com</p>
+			</div>
+
+			<div id="dog-photo-d">
+				<img src="images/cmGroup2-208sq.jpg">
+			</div>
+		</footer>
+
+
+
+
+	</div><!-- END d="lower-container" -->
+
+
+
+</div><!-- END id="container" -->
+
+</body>
+</html>

@@ -651,6 +651,51 @@ footer {
 .show-on {
   display: inline-block;
 }
+
+
+#color-sq-a {
+  margin-left: 25px;
+  float: left;
+  width: 21.62%;
+  background-color: #978c6b;
+  height: 208px;
+}
+
+#tweet-content {
+  padding-top: 10px;
+  /*margin-top: -10px;*/
+  margin-left: 25px;
+  margin-right: 22px;
+  color: #6D5C41;
+  float: left;
+  width: 46%;
+  /*background-color: #F9D295;*/
+  background-color: #FFECCB;
+}
+
+#lowertweet-container {
+  width: 960px;
+  height: auto;
+  margin-top: 25px;
+}
+
+li .tweet {
+
+}
+
+li .tweetDate {
+    font-family: "report",sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+
+
+
+
+
+
+
 /*
 img.align-left {
   float: left;
