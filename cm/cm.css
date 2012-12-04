@@ -688,7 +688,7 @@ ul #tweets {
 li.tweet {
   font-family: "report", sans-serif;
   font-weight: 400;
-  font-size: 0.8em;
+  font-size: 1em;
   text-decoration: none;
   /*width: 40%;*/
   width: 20%;
