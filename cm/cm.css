@@ -679,15 +679,32 @@ footer {
   margin-top: 25px;
 }
 
-li .tweet {
+ul #tweets {
 
+}
+
+li.tweet {
+  font-family: "report", sans-serif;
+  font-weight: 400;
+  font-size: 0.8em;
+  text-decoration: none;
+  width: 40%;
+  padding-top: 20px;
+  padding-left: 13px;
+}
+
+li .tweet img {
+ /* width: 100px;*/
 }
 
 li .tweetDate {
-    font-family: "report",sans-serif;
+    font-family: "report", sans-serif;
     font-weight: 400;
+    font-style: italic;
     font-size: 1em;
+    text-align: center;
 }
+
 
 
 
