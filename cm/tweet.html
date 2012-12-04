@@ -12,13 +12,15 @@
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
 <script>
+
 $(document).ready(function() {
 	 var username = 'sandimanna';
 	 console.log(username);
 	 var count = 4;
 	 console.log(count);
 
-$.getJSON('https://api.twitter.com/1/statuses/user_timeline.json?screen_name=' + username + '&rpp=5&include_entities=true&result_type=mixed&callback=?',
+$.getJSON('https://api.twitter.com/1/statuses/user_timeline.json?screen_name=' + username + '&rpp=5&include_entities=true&result_type=mixed&callback=?&count=8',
+// $.getJSON('https://api.twitter.com/1/statuses/user_timeline.json?screen_name=' + username + '&rpp=5&include_entities=true&result_type=mixed&callback=?',	
           function(data) {
             $.each(data,function() {
 	             var tweet = this;
@@ -35,25 +37,25 @@ $.getJSON('https://api.twitter.com/1/statuses/user_timeline.json?screen_name=' +
               var date = moment(tweet.created_at);            // How long ago the tweet was created
                                                               // created_at: https://dev.twitter.com/docs/platform-objects/users
               $("<div>")
-                 .text(date.fromNow())                        // <div class=tweetDate></div>
+                 .text(date.fromNow())                        // <div class="tweetDate"></div>
                  .addClass("tweetDate")
                  .appendTo(li);
 
-              $("<div>")                                      // <div class=tweetText"></div>
+              $("<div>")                                      // <div class="tweetText"></div>
                  .text(tweet.text)
                  .addClass("tweetText")
                  .appendTo(li);
 
 
-
               li.appendTo("#tweets");                         // Add the new li to <ul id="tweets">
               console.log(user);
               console.log(tweet);
+
             });
           });
 });
-</script>
 
+</script>
 </head>
 <body>
 <div id="container">
@@ -84,15 +86,18 @@ $.getJSON('https://api.twitter.com/1/statuses/user_timeline.json?screen_name=' +
 
 	</header>
 
+
+
+
 	<div id="lowertweet-container">
 
 		<div id="mid-uppertweet-wrap" class="clearfix">
 
-			<div id="color-sq-a"></div>
+			<!-- <div id="color-sq-a"></div> -->
 
 			<div id="tweet-content">
-				<ul id='tweets'>
-			</div><!-- END id="welcome-text" -->
+				<ul id='tweets'></ul>
+			</div><!-- END id="tweet-content" -->
 
 			<div id="color-rct-a"></div>
 

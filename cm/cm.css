@@ -664,11 +664,13 @@ footer {
 #tweet-content {
   padding-top: 10px;
   /*margin-top: -10px;*/
-  margin-left: 25px;
-  margin-right: 22px;
+  margin-left: 2.5%;
+  padding-left: 32px;
+  /*margin-right: 22px;*/
   color: #6D5C41;
   float: left;
-  width: 46%;
+  /*width: 46%;*/
+  width: 94.5%;
   /*background-color: #F9D295;*/
   background-color: #FFECCB;
 }
@@ -688,8 +690,10 @@ li.tweet {
   font-weight: 400;
   font-size: 0.8em;
   text-decoration: none;
-  width: 40%;
+  /*width: 40%;*/
+  width: 20%;
   padding-top: 20px;
+  padding-bottom: 20px;
   padding-left: 13px;
 }
 
@@ -699,10 +703,13 @@ li .tweet img {
 
 li .tweetDate {
     font-family: "report", sans-serif;
+    text-transform: uppercase;
     font-weight: 400;
     font-style: italic;
     font-size: 1em;
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 
