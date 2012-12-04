@@ -662,10 +662,11 @@ footer {
 }
 
 #tweet-content {
+  margin-top: 25px;
   padding-top: 10px;
   /*margin-top: -10px;*/
-  margin-left: 2.5%;
-  padding-left: 32px;
+  margin-left: 2.6%;
+  padding-left: 30px;
   /*margin-right: 22px;*/
   color: #6D5C41;
   float: left;
@@ -694,7 +695,9 @@ li.tweet {
   width: 20%;
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-left: 13px;
+  /*padding-left: 13px;*/
+  padding-left: 20px;
+  color: #A0554E;
 }
 
 li .tweet img {
@@ -710,6 +713,7 @@ li .tweetDate {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
+    color: #6D5C41;
 }
 
 
@@ -767,7 +771,12 @@ img {max-width: 100%;}
       padding-top: 0;
     }
 
+   li #tweets {
+      width: 98%;
+      margin-right: 10%;
+    
 
+    }
 
     ul li {
       float: none;
@@ -813,6 +822,51 @@ img {max-width: 100%;}
 
     #dog-photo-c {
       float: none;
+    }
+
+    #tweet-content {
+      margin-top: 0;
+      padding-top: 0;
+      padding-left: 0;
+      padding-right: 6%;
+      /*margin-top: -10px;*/
+  /*    margin-left: 2.6%;
+      padding-left: 30px;*/
+      /*margin-right: 22px;*/
+      margin-left: 25px;
+      color: #6D5C41;
+      float: none;
+      width: 22%;
+      /*width: 94.5%;*/
+      /*background-color: #F9D295;*/
+      background-color: #FFECCB;
+    }
+
+    li.tweet {
+      font-family: "report", sans-serif;
+      font-weight: 400;
+      font-size: 1em;
+      text-decoration: none;
+      /*width: 40%;*/
+      width: 90%;
+/*      
+      padding-top: 20px;
+      padding-bottom: 20px;
+      /*padding-left: 13px;*/
+      /*padding-left: 20px;*/
+      color: #A0554E;
+    }
+
+    li .tweetDate {
+      font-family: "report", sans-serif;
+      text-transform: uppercase;
+      font-weight: 400;
+      font-style: italic;
+      font-size: 1em;
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      color: #6D5C41;
     }
 
   }
