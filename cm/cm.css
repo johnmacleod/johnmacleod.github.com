@@ -652,6 +652,9 @@ footer {
   display: inline-block;
 }
 
+#mid-uppertweet-wrap {
+
+}
 
 #color-sq-a {
   margin-left: 25px;
@@ -665,7 +668,7 @@ footer {
   margin-top: 25px;
   padding-top: 10px;
   /*margin-top: -10px;*/
-  margin-left: 2.6%;
+  margin-left: 2.75%;
   padding-left: 30px;
   /*margin-right: 22px;*/
   color: #6D5C41;
