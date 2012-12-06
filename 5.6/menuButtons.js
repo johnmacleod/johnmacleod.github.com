@@ -5,8 +5,8 @@
 	var landing = "Blackbird Cafe"
 
 	if ( (document.title) == coffeeT ) {
-		$('.left-horz-menu > li > a').eq(3).css('background-color', '#909090');
-		$('.left-horz-menu > li > a').eq(3).css('color', '#fff');
+		$('.left-horz-menu > li > a').eq(2).css('background-color', '#909090');
+		$('.left-horz-menu > li > a').eq(2).css('color', '#fff');
 		/* 
 		$('.left-horz-menu > li > a').eq(3).css('line-height', '26px');
 		$('.left-horz-menu > li > a').eq(3).css('border-top-color', '#000');
