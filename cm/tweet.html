@@ -18,7 +18,7 @@
 $(document).ready(function() {
 	 var username = 'sandimanna';
 	 console.log(username);
-	 var count = 4;
+	 var count = 8;
 	 console.log(count);
 
 $.getJSON('https://api.twitter.com/1/statuses/user_timeline.json?screen_name=' + username + '&rpp=5&include_entities=true&result_type=mixed&callback=?&count=8',
@@ -28,8 +28,9 @@ $.getJSON('https://api.twitter.com/1/statuses/user_timeline.json?screen_name=' +
 	             var tweet = this;
 	             var user = tweet.user;
 				 var li = $("<li>").addClass("tweet");           // <li class="tweet">
-
-             if(tweet.entities && tweet.entities.media.length > 0) {	
+		 	 if(tweet.entities && tweet.entities.media && tweet.entities.media.length > 0)  {
+             //if(tweet.entities && tweet.entities.media.length > 0) {	
+             //if(tweet.entities.media > 0) {	
                 var image = tweet.entities.media[0].media_url;
 
                 $("<img>").attr("src",image)  	// The tweet's attached image <img src="#">
