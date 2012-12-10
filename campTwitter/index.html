@@ -18,7 +18,7 @@ $(document).ready(function() {
 
   //var query = "birds";
   //var url="http://search.twitter.com/search.json?q=" + query + "&rpp=5&include_entities=true&result_type=mixed&callback=?";
-$.getJSON('https://api.twitter.com/1/statuses/user_timeline.json?screen_name=' + username + '&rpp=5&include_entities=true&result_type=mixed&callback=?',
+$.getJSON('https://api.twitter.com/1/statuses/user_timeline.json?screen_name=' + username + '&rpp=5&include_entities=true&result_type=mixed&callback=?&count=8',
           function(data) {
             $.each(data,function() {
               var tweet = this;
@@ -27,7 +27,7 @@ $.getJSON('https://api.twitter.com/1/statuses/user_timeline.json?screen_name=' +
 
               var li = $("<li>").addClass("tweet");           // <li class="tweet">
 
-              if(tweet.entities && tweet.entities.media.length > 0) {
+              if(tweet.entities && tweet.entities.media && tweet.entities.media.length > 0) {
                 var image = tweet.entities.media[0].media_url;
 
                 $("<img>").attr("src",image)  // The tweet's attached image <img src="#">
@@ -58,13 +58,40 @@ $.getJSON('https://api.twitter.com/1/statuses/user_timeline.json?screen_name=' +
           });
 });
 </script>
+
+<script>
+
+function linkify(inputText) {
+    var replaceText, replacePattern1, replacePattern2, replacePattern3;
+
+    //URLs starting with http://, https://, or ftp://
+    replacePattern1 = /(\b(https?|ftp):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/gim;
+    replacedText = inputText.replace(replacePattern1, '<a href="$1" target="_blank">$1</a>');
+
+    //URLs starting with "www." (without // before it, or it'd re-link the ones done above).
+    replacePattern2 = /(^|[^\/])(www\.[\S]+(\b|$))/gim;
+    replacedText = replacedText.replace(replacePattern2, '$1<a href="http://$2" target="_blank">$2</a>');
+
+    //Change email addresses to mailto:: links.
+    replacePattern3 = /(\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,6})/gim;
+    replacedText = replacedText.replace(replacePattern3, '<a href="mailto:$1">$1</a>');
+
+    return replacedText
+}
+
+</script>
+
 </head>
 
 <body>
 
-<ul id='tweets'>
+<ul id='tweets'></ul>
 
-</ul>
+<p>Wonder no more! What kind of study goes on at cm? These days the Art Of Loving and the 8 practices of Yoga. Luv luv http://t.co/laUxIKb1</p>
+
+
+
+<script>linkify()</script>
 
 </body>
 </html>
