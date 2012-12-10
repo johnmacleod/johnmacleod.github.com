@@ -407,13 +407,11 @@ html[xmlns] .clearfix { display: block; }
 
 
 #container {
-  width: 60em;
+  width: 960px;
   /*background-color: yellow;*/
   background-color: #fff;
   margin: 0 auto;
 }
-
-
 
 h1 {
   font-family: "ff-cocon-web-pro", sans-serif;
@@ -743,7 +741,7 @@ img.align-right {
     img {max-width: 100%;}
 
 
-  @media screen and (max-device-width: 480px) {
+  @media screen and (max-width: 480px) and (max-device-width: 480px;) {
     h1 {font-size: 1.3em;} 
     h2 {
       font-size: 1.2em;
