@@ -741,7 +741,7 @@ img.align-right {
     img {max-width: 100%;}
 
 
-  @media screen and (max-width: 480px) and (max-device-width: 480px;) {
+  @media screen and (max-device-width: 480px;) {
     h1 {font-size: 1.3em;} 
     h2 {
       font-size: 1.2em;
