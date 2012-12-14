@@ -744,7 +744,7 @@ img.align-right {
 */
 img {max-width: 100%;}
 
-  @media screen and (max-device-width:480px) {
+  @media screen and (max-width:480px) {
   /*@media screen and (max-width:480px) {*/
     h1 {font-size: 1.3em;} 
     h2 {
@@ -857,12 +857,11 @@ img {max-width: 100%;}
       text-decoration: none;
       /*width: 40%;*/
       width: 90%;
-/*      
-      padding-top: 20px;
-      padding-bottom: 20px;
-      /*padding-left: 13px;*/
-      /*padding-left: 20px;*/
       color: #A0554E;
+    }
+
+    li img {
+      width: 100%;
     }
 
     li .tweetDate {
