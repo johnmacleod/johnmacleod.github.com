@@ -738,7 +738,7 @@ img.align-right {
 */
 img {max-width: 100%;}
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 760px) {
   /*@media screen and (max-width:480px) {*/
     h1 {font-size: 1.3em;} 
     h2 {
