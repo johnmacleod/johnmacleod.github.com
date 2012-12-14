@@ -779,7 +779,7 @@ img {max-width: 100%;}
       padding-top: 0;
     }
 
-   li #tweets {
+   ul #tweets {
       width: 98%;
       margin-right: 10%;
     
@@ -861,7 +861,7 @@ img {max-width: 100%;}
     }
 
     li img {
-      width: 100%;
+      width: 22%;
     }
 
     li .tweetDate {
