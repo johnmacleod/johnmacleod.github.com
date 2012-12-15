@@ -17,6 +17,7 @@
     #logo-content { 
       float:none; 
       width: 15%; 
+      min-width: 11%;
       margin:0 3% 0 6%; 
     }
 

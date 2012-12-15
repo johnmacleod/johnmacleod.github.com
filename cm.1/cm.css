@@ -421,20 +421,13 @@ h1 {
   font-size: 3.2em;
   line-height: .01em;
   letter-spacing: -.04em;
-  /*color: #978C6B;*/
-  /*color: #6D5C41;*/
-  /*color: #93694F;*/
   color: #534632;
 }
 
 h2 {
   font-family: "ff-cocon-web-pro", sans-serif;
-  /*font-size: 2.4em;*/
-  /*line-height: 0.02em;*/
   font-size: 1.5em;
   font-weight: 400;
-  /*letter-spacing: .01em;*/
-
   letter-spacing: normal;
   line-height: 1.25em;
 
@@ -452,33 +445,21 @@ h4 {
   font-size: 1.5em;
   font-style: italic;
   font-weight: 400;
-  /*line-height: .01em;*/
 }
 
 p {
-    font-family: "report",sans-serif;
-    font-weight: 400;
-    font-size: 1em;
+  font-family: "report",sans-serif;
+  font-weight: 400;
+  font-size: 1em;
 }
 
 header {
  width: 100%;
- /*  max-width: 960px;
-  height: auto;*/
 }
 
-
-
-
-
-
 #top-header-wrap{
- /* width: 960px;
-  height: 210px;*/
   width: 100%;
   margin: 0 auto;
- /* max-width: 960px;*/
-  /*height: auto;*/
 }
 
 #logo-content {
@@ -486,23 +467,13 @@ header {
   width: 27%;
   margin-left: 2.5%;
   margin-bottom: -1%;
-  /*background-color: red;*/
-  /*min-height: 20%;*/ 
-  /*min-height: 50px;*/
-
 }
 
 #logoText-content {
-  /* width: 18.75em;*/
-  /*width: 226px;*/
-/*  padding-top:  8%;*/
   margin-top: 5%;
   width: 68%;
   float: right; 
   margin-right: 1%;
-  /*background-color: #fff;*/
-  /*padding-top: 25px;
-  padding-left: 25px;*/  
 }
 
 
@@ -517,16 +488,11 @@ ul {
   padding: 0;
   list-style: none;
   text-decoration: none;
-  /*width:960px;*/
-  /*overflow: hidden;*/
-  /*width: 60em;*/
 }
 
 ul li {
   float: left;
   margin-left: 25px;
-/*  border-right-style: solid;
-  border-right-color: white;*/
 }
 
 ul li a {
@@ -738,8 +704,35 @@ img.align-right {
 */
 img {max-width: 100%;}
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 600px) {
  
+    #top-header-wrap {
+      max-height: 250%;
+    }
+
+    h1 {
+      font-family: "ff-cocon-web-pro", sans-serif;
+      font-size: 2em;
+      line-height: 2em;
+    }
+
+    #logo-content {
+      width: 100%;
+    }
+
+    #logoText-content {
+      margin-top: 100px;
+      padding: 100px 0 0 0;
+
+    }
+
+    #logoText-content {
+      margin-top: 0;
+      float: left;
+    }
+
+
+
 
  }
 
