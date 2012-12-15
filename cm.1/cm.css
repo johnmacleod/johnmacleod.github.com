@@ -408,6 +408,7 @@ html[xmlns] .clearfix { display: block; }
 
 #container {
   width: 90%;
+  /*max-width: 960px;*/
   max-width: 960px;
   /*background-color: yellow;*/
   background-color: #fff;
