@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+	<title></title>
+
+	<style type="text/css">
+		#page {
+			margin: 36px auto;
+			width: 90%; /* was 960px */
+		}
+
+		.blog {
+			margin: 0 auto 53px;	
+									/* Target / Context = result */	
+			width: 93.75%;  		/* 900px  / 960px = 0.9375 */ /*Was 900px*/
+		}
+
+		.blog .main {
+			float: left;
+										/* Target / Context = result */	
+			width: 62.888888888889% ; 	/* 566px / 900px (blog width) = 0.62888888888889 */
+
+		}
+
+		.blog .other {
+			float: right;
+										/* Target / Context = result */	
+			width: 36.777777777778%; 	/* 331px / 900px = 0.36777777777778 */
+		}
+
+		.lede {							
+			/*padding: 0.8em 48px;*/	
+										/* Target / Context = result */
+										/* 48px  / 900px = 0.05333333333333 */
+			padding: 0.8em 5.333333333333%;
+		}
+
+	</style>
+</head>
+<body>
+
+<div id="page">
+	<div class="blog section">
+
+		<h1 class="lede">Recently in <a href"#">The Bot Blog</a></h1>
+
+		<div class="main">
+		</div><!-- END class="main" -->
+
+		<div class="other">
+		</div><!-- END class="other" -->
+
+	</div><!-- END class="blog section" -->
+
+</div><!-- END id="page" -->
+
+
+</body>
+</html>
