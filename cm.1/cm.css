@@ -542,7 +542,8 @@ ul li a {
 
 #welcome-text {
   padding-top: 10px;
-  margin: 0 2.8%;
+  /*margin: 0 2.8%;*/
+  margin: 0 0 0 2.8%;
   color: #6D5C41;
   float: left;
   width: 34%;
@@ -728,25 +729,31 @@ h1 {
 }
 
 ul li a {
-/*  display: block;
-  line-height: 25px;*/
   width: 146px;
-  /*width: 100%;*/
-/*  color: #fff;
-  background-color: #A0554E;
-  font-family: "report",sans-serif;
-  font-weight: 400;
-  text-decoration: none;
-  font-size: 1em;
-  text-align: center;*/
 } 
 
 h4 {
-/*  font-family: "report",sans-serif;*/
-  /*font-size: 1.5em;*/
   font-size: 1em;
-/*  font-style: italic;
-  font-weight: 400;*/
+}
+
+#welcome-text  {
+  width: 380px;
+  float: right;
+}
+
+#tired-dog-text {
+  width: 380px;
+  float: right;
+}
+
+#socialize-dog-text {
+  margin-top: 10px;
+  width: 380px;
+  float: right;
+}
+
+#dog-photo-b  {
+  display: none;
 }
 
 
