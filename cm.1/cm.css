@@ -765,6 +765,7 @@ img {max-width: 100%;}
 
 
 @media screen and (max-width: 320px) {
+img {max-width: 100%;}
 
   #logo-content {
     float: left;
@@ -792,8 +793,12 @@ img {max-width: 100%;}
   }
 
   ul li a {
-    width: 260px;
+    width: 263px;
   } 
+
+  #dog-photo-a {
+    margin: 0 25px;
+  }
 
 
 }
