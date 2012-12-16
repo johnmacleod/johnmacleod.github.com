@@ -780,8 +780,19 @@ img {max-width: 100%;}
     margin: 0 auto;
   } 
 
+  ul li {
+    float: none;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: #fff;
+
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #fff;
+  }
+
   ul li a {
-    width: 208px;
+    width: 260px;
   } 
 
 
