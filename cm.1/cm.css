@@ -408,8 +408,8 @@ html[xmlns] .clearfix { display: block; }
 
 #container {
   width: 90%;
-  /*max-width: 960px;*/
   max-width: 960px;
+  /*max-width: 100%;*/
   /*background-color: yellow;*/
   background-color: #fff;
   margin: 0 auto;
@@ -420,7 +420,7 @@ html[xmlns] .clearfix { display: block; }
 h1 {
   font-family: "ff-cocon-web-pro", sans-serif;
   font-size: 3.2em;
-  line-height: .01em;
+  /*line-height: .01em;*/
   letter-spacing: -.04em;
   color: #534632;
 }
@@ -455,12 +455,12 @@ p {
 }
 
 header {
- width: 100%;
+/* width: 100%;*/
 }
 
 #top-header-wrap{
-  width: 100%;
-  margin: 0 auto;
+  width: 94.791666666667%;        /* 910 / 960 = 0.94791666666667 */
+  margin: 0 2.6041666666665%;
 }
 
 #logo-content {
@@ -471,7 +471,7 @@ header {
 }
 
 #logoText-content {
-  margin-top: 5%;
+  padding-top: 2%;
   width: 68%;
   float: right; 
   margin-right: 1%;
@@ -481,6 +481,7 @@ header {
 nav {
   /*padding-top: 10em;*/
 /*  width: 60em;*/
+
 
 }
 
@@ -493,7 +494,8 @@ ul {
 
 ul li {
   float: left;
-  margin-left: 25px;
+  /*margin-left: 25px;*/
+  margin-left: 2.6041666666665%;
 }
 
 ul li a {
@@ -503,87 +505,86 @@ ul li a {
   color: #fff;
   background-color: #A0554E;
   font-family: "report",sans-serif;
-  font-weight: 700px;
+  font-weight: 400;
   text-decoration: none;
   font-size: 1em;
   text-align: center;
 } 
 
 #mid-upper-wrap {
-  width: 960px;
+  width: 94.791666666667%;        /* 910 / 960 = 0.94791666666667 */
+ /* margin: 25px 2.3%;*/
+  margin: 25px 2.6041666666665%;
+  /*width: 960px;*/
   height: auto;
-  margin-top: 25px;
+  /*margin-top: 25px;*/
   /*background-color: orange;*/
 }
 
 #dog-photo-a {
-  width: 22%;
+  /*width: 22%;*/
+  /*width: 25%;*/
   float: left;
-  margin-left: 25px;
+  /*margin-left: 25px;*/
+ /* margin-left: 2.6041666666665%;*/
 }
 
 #dog-photo-b {
+  float: right;
 }
 
 #dog-photo-c {
-  width: 22%;
+  /*width: 22%;*/
   float: left;
-  margin-left: 25px;
+  /*margin-left: 25px;*/
 }
 
 #welcome-text {
   padding-top: 10px;
-  /*margin-top: -10px;*/
-  margin-left: 23px;
-  margin-right: 22px;
+  margin: 0 2.8%;
   color: #6D5C41;
   float: left;
-  width: 33%;
-  /*background-color: #F9D295;*/
+  width: 34%;
   background-color: #FFECCB;
 }
 
 #mid-lower-wrap {
-  width: 960px;
+  width: 94.791666666667%;        /* 910 / 960 = 0.94791666666667 */
   height: auto;
-  margin-top: 15px;
+  /*margin-top: 15px;*/
+  margin: 0 2.6041666666665%;
   /*background-color: red;*/
 }
 
 #tired-dog-text {
   padding-top: 10px;
-  margin-left: 23px;
-  margin-right: 22px;
+  margin: 0 0 0 2.8%;
   color: #6D5C41;
   float: left;
-  width: 33%;
+  width: 34%;
   background-color: #FFECCB;
-  /*background-color: green;*/
 }
 
 #socialize-dog-text {
   padding-top: 10px;
-  margin-left: 0;
-  margin-right: 25px;
+  /*margin: 0 2.8%;*/
   float: right;
-  width: 35%;
+  width: 37%;
   background-color: #FFECCB;
   color: #6D5C41;
   /*background-color: blue;*/
 }
 
 #color-block {
-  margin-left: 25px;
+ /* margin-left: 25px;*/
   float: left;
-  width: 44%;
+  width: 52%;
   background-color: #978c6b;
   height: 208px;
 }
 
 #contact-text {
-  margin-top: 20px;
-  margin-left: 23px;
-  margin-right: 22px;
+  margin: 2% 0 0 3%;
   float: left;
   width: 22%;
   color: #A0554E;
@@ -593,14 +594,19 @@ ul li a {
 #dog-photo-d {
   width: 22%;
   float: right;
-  margin-right: 25px;
+ /* margin-right: 25px;*/
 }
 
 footer {
-  padding-bottom: 5%;
-  width: 960px;
+  width: 94.791666666667%;        /* 910 / 960 = 0.94791666666667 */
   height: auto;
-  margin-top: 25px;
+  /*margin-top: 15px;*/
+  margin: 2.6041666666665% 2.6041666666665%;
+
+  padding-bottom: 5%;
+/*  width: 960px;
+  height: auto;
+  margin-top: 25px;*/
  /* background-color: orange;*/
 }
 
@@ -648,11 +654,11 @@ footer {
   background-color: #FFECCB;
 }
 
-#lowertweet-container {
+/*#lowertweet-container {
   width: 960px;
   height: auto;
   margin-top: 25px;
-}
+}*/
 
 ul #tweets {
 
@@ -703,8 +709,10 @@ img.align-right {
   margin-left : 25px;
 }
 */
-img {max-width: 100%;}
 
+
+img {max-width: 100%;}
+/*
   @media screen and (max-width: 600px) {
  
     #top-header-wrap {
@@ -735,7 +743,7 @@ img {max-width: 100%;}
 
 
 
- }
+ }*/
 
 
 
