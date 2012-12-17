@@ -805,6 +805,20 @@ img {max-width: 100%;}
     float: left;
   }
 
+  #dog-photo-c {
+    margin: 0 32px;
+  }
+
+  #tired-dog-text {
+    width: 260px;
+    float: left;
+  }
+
+  #socialize-dog-text {
+    margin-top: 10px;
+    width: 260px;
+    float: left;
+  }
 
 }
 
