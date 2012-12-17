@@ -768,6 +768,13 @@ img {max-width: 100%;}
   h1 {
     line-height: 1em;
   }
+
+ ul li a {
+    width: 86px;
+    height: 60px;
+  } 
+
+
 }
 
 @media screen and (max-width: 320px) {
