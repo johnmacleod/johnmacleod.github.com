@@ -850,6 +850,9 @@ img {max-width: 100%;}
     width: 200px;
   }
 
+  #tweet-content {
+    width: 275px;
+  }
 
 }
 
