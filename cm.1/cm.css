@@ -854,6 +854,11 @@ img {max-width: 100%;}
     width: 275px;
   }
 
+  #dog-photo-d {
+    float: left;
+    margin: 0;
+  }
+
 }
 
 
