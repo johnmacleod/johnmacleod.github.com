@@ -797,12 +797,12 @@ img {max-width: 100%;}
   } 
 
   #dog-photo-a {
-    margin: 0 28px;
+    margin: 0 32px;
   }
 
    #welcome-text  {
-    width: 380px;
-    float: right;
+    width: 275px;
+    float: left;
   }
 
 
