@@ -810,11 +810,13 @@ img {max-width: 100%;}
   }
 
   #tired-dog-text {
+
     width: 260px;
     float: left;
   }
 
   #socialize-dog-text {
+    margin: 0 0 0 2.8%;
     margin-top: 10px;
     width: 260px;
     float: left;
