@@ -721,7 +721,7 @@ img {max-width: 100%;}
   h1 {
     font-family: "ff-cocon-web-pro", sans-serif;
     font-size: 2em;
-    line-height: 2em;
+    line-height: 1em;
     float: none;
   }
 
@@ -763,6 +763,12 @@ img {max-width: 100%;}
 
 }
 
+@media screen and (max-width: 480px) {
+
+  h1 {
+    line-height: 1em;
+  }
+}
 
 @media screen and (max-width: 320px) {
 img {max-width: 100%;}
@@ -856,7 +862,7 @@ img {max-width: 100%;}
 
   #dog-photo-d {
     float: left;
-    margin: 0;
+
   }
 
 }
