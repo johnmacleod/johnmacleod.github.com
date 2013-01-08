@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Searchbox fun</title>
+
+	<style type="text/css">
+		#searchwrapper {
+			width:117px; /*follow your image's size*/
+			height:29px;/*follow your image's size*/
+			background-image:url(black-btn.png);
+			background-repeat:no-repeat; /*important*/
+			padding:0px;
+			margin:0px;
+			position:relative; /*important*/
+		}
+		 
+		#searchwrapper form { display:inline ; }
+		 
+		.searchbox {
+			border:0px; /*important*/
+			background-color:transparent; /*important*/
+			position:absolute; /*important*/
+			top:4px;
+			left:9px;
+			width:256px;
+			height:28px;
+		}
+		/*
+		.searchbox_submit {
+			border:0px; 
+			background-color:transparent; 
+			position:absolute; 
+			top:4px;
+			left:265px;
+			width:32px;
+			height:28px;
+		}
+	*/
+	</style>
+</head>
+<body>
+	<div id="searchwrapper">
+		<form action="">
+			<input type="text" class="searchbox" name="s" value="" />
+			<!-- <input type="image" src="THE_BLANK_SUBMIT_BUTTON_IMAGE" class="searchbox_submit" value="" /> -->
+		</form>
+	</div>
+
+
+</body>
+</html>
