@@ -16,12 +16,11 @@
 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
 
 <script>
-
 $(document).ready(function() {
 	 var username = 'sandimanna';
-	 console.log(username);
+	 //console.log(username);
 	 var count = 8;
-	 console.log(count);
+	 // console.log(count);
 
 $.getJSON('https://api.twitter.com/1/statuses/user_timeline.json?screen_name=' + username + '&rpp=5&include_entities=true&result_type=mixed&callback=?&count=8',
 // $.getJSON('https://api.twitter.com/1/statuses/user_timeline.json?screen_name=' + username + '&rpp=5&include_entities=true&result_type=mixed&callback=?',	
@@ -48,17 +47,38 @@ $.getJSON('https://api.twitter.com/1/statuses/user_timeline.json?screen_name=' +
 
               $("<div>")                                      // <div class="tweetText"></div>
                  .text(tweet.text)
-                 .addClass("tweetText")
+				 .addClass("tweetText")
+                 // function makeLink(someText) {
+                 // 	var = linkedText, replacePattern;
+                 // 	replacePattern =  /(https?\:\/\/)\S*/
+                 // 	linkedText = someText.replace(replacePattern, "<a href='$1'>$1</a>");
+                 // 	return linkedText;
+                 // 	// alert(linkedText[0]);
+                 // }
                  .appendTo(li);
-
-
               li.appendTo("#tweets");                         // Add the new li to <ul id="tweets">
-              console.log(user);
-              console.log(tweet);
+              // console.log(user);
+              // console.log(tweet);
+
+              // var myDivs = document.getElementsByTagName("div");
+              // console.log(myDivs.length);
+              // console.log(myDivs[12]);
+              // console.log(myDivs[14]);
+              // console.log(myDivs[16]);
+              // console.log(myDivs[18]);
+              // console.log(myDivs[22]);
+              // console.log(myDivs[24]);
+              // console.log(myDivs[26]);
 
             });
+              var myDivs = document.getElementsByTagName("div");
+              console.log(myDivs.length);
+
           });
+
+
 });
+
 
 </script>
 </head>
