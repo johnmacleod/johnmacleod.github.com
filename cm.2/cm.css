@@ -381,6 +381,37 @@ table {
     border-spacing: 0;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ==========================================================================
    End normalize / Start John's CSS
 
@@ -540,8 +571,9 @@ ul li a {
   /*margin-left: 25px;*/
 }
 
-#welcome-text {
-  padding-top: 10px;
+#welcome-text {   /*1st instance */
+  padding-top: 12px;
+  padding-bottom: 12px;
   /*margin: 0 2.8%;*/
   margin: 0 0 0 2.8%;
   color: #6D5C41;
@@ -585,8 +617,9 @@ ul li a {
   height: 208px;
 }
 
-#contact-text {
+#welcome-text-text {
   margin: 2% 0 0 3%;
+  /*padding-bottom: 2%;*/
   float: left;
   width: 22%;
   color: #A0554E;
@@ -715,6 +748,9 @@ img.align-right {
 
 img {max-width: 100%;}
 
+/************************************************************************/
+/************ @media for 768px width  [iPad portrait]   *****************/
+/************************************************************************/
 
 @media screen and (max-width: 768px) {
 
@@ -744,7 +780,7 @@ img {max-width: 100%;}
   }
 
   #socialize-dog-text {
-    margin-top: 10px;
+    padding-top: 12px;
     width: 380px;
     float: right;
   }
@@ -763,6 +799,10 @@ img {max-width: 100%;}
 
 }
 
+/************************************************************************/
+/************* @media for 480px width   [iPhone 4 landscape] ************/
+/************************************************************************/
+
 @media screen and (max-width: 480px) {
 
   h1 {
@@ -776,6 +816,10 @@ img {max-width: 100%;}
 
 
 }
+
+/************************************************************************/
+/************* @media for 320px width   [iphone 4 portrait] *************/
+/************************************************************************/
 
 @media screen and (max-width: 320px) {
 img {max-width: 100%;}
