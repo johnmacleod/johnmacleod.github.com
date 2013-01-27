@@ -447,6 +447,7 @@ html[xmlns] .clearfix { display: block; }
 }
 
 
+@media screen and (max-width: 1024px) {
 
 h1 {
   font-family: "ff-cocon-web-pro", sans-serif;
@@ -748,6 +749,7 @@ img.align-right {
 
 img {max-width: 100%;}
 
+}
 /************************************************************************/
 /************ @media for 768px width  [iPad portrait]   *****************/
 /************************************************************************/
