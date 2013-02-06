@@ -590,11 +590,22 @@ footer {
 }
 
 .homepage .homepage a,
-.farmspage .farmspage a {
+.farmspage .farmspage a,
+.businesspage .businesspage a {
   background-image: url(images/page-indicator.png);
   background-repeat: no-repeat;
 
 }
+
+.homepage a:hover,
+.farmspage a:hover,
+.businesspage a:hover {
+  background-image: url(images/page-indicator.png);
+  background-repeat: no-repeat;
+
+}
+
+
 
 /*************************************************************/
 /********************** Search and Login *********************/
