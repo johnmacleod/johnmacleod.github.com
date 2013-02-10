@@ -432,7 +432,8 @@ html[xmlns] .clearfix { display: block; }
 
 
 .bluedog {
-  padding: 0 0 0 60%;
+  padding: 0 0 0 80%;
+  margin-bottom: -0.75%;
 }
 
 
