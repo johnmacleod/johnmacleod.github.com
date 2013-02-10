@@ -536,7 +536,7 @@ header {
 
 nav {
   /*padding-top: 10em;*/
-/*  width: 60em;*/
+ /* width: 150px;*/
 
 
 }
@@ -809,13 +809,26 @@ img {max-width: 100%;}
 /*****************************************************************************************/
 /*****************************************************************************************/
 
-@media screen and (max-width: 927px) {
+@media screen and (max-width: 940px) {
 
 
-  ul li a {
-    width: 120px;
+
+ul li {
+  float: left;
+  margin-left: 2px;
+  /*margin-left: 25px;*/
+  /*margin-left: 2.6041666666665%;*/
+}
+
+
+  nav ul li a {
+    width: 160px;
+    text-align: left;
   } 
 
+li {
+ /* width: 100px;*/
+}
 
 
   h1 {
@@ -825,16 +838,16 @@ img {max-width: 100%;}
     float: none;
 
   }
-
+/*
   h4 {
     font-size: 1em;
   }
-
+*/
   #welcome-text  {
     width: 380px;
-    float: right;
+    float: none;
   }
-
+/*
   #tired-dog-text {
     width: 380px;
     float: right;
@@ -857,7 +870,7 @@ img {max-width: 100%;}
   #contact-text {
     width: 200px;
   }
-
+*/
 }
 
 
