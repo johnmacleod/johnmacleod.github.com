@@ -501,14 +501,7 @@ p {
   color: #8f4931;
 }
 
-.p-chara {
-  font-family: "report", sans-serif;
-  line-height: 1.5em;
-  font-weight: 700;
-  font-size: 1em;
-  margin: 0 0 0 0;
-  padding-bottom: 0;
-}
+
 
 header {
 /* width: 100%;*/
@@ -674,11 +667,12 @@ ul li a {
 footer {
   /*width: 94.791666666667%;  */      /* 910 / 960 = 0.94791666666667 */
   width: 100%;
+  height: 60px;
 /*  height: 10%;*/
   /*margin-top: 15px;*/
   /*margin: 2.6041666666665% 2.6041666666665%;*/
-  margin: 0 auto -10px auto;
-  padding-bottom: 2%;
+  /*margin: 0 auto -10px auto;*/
+ /* padding-bottom: 1%;*/
 /*  width: 960px;
   height: auto;
   margin-top: 25px;*/
@@ -687,14 +681,33 @@ footer {
   text-align: center;
 }
 
-footer h5 {
+.p-chara {
+  font-family: "ff-cocon-web-pro", sans-serif;
+  font-style: italic;
+/*  line-height: 1.2em;*/
+  font-weight: 700;
+  font-size: 1.12em;
+  margin: 0 0 0 0;
+  padding-bottom: 0;
+}
+
+footer h4 {
+  font-size: 1em;
+  color: #8f4931;
   font-style: normal;
+  margin: 10px 0 0 0;
+}
+
+/*footer h5 {
+  font-style: normal;
+  margin: 0;
 }
 
 footer h5 .p-chara {
   font-style: italic;
   font-size: 1.2em;
-}
+  margin: 0;
+}*/
 
 .para-set {
   line-height: 0.25em;
