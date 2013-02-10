@@ -435,12 +435,23 @@ h1 {
 
 h2 {
   font-family: "ff-cocon-web-pro", sans-serif;
-  font-size: 1.5em;
-  font-weight: 400;
+  /*font-size: 1.5em;*/
+  font-size: 1.75em;
+  font-weight: 700;
   letter-spacing: normal;
-  line-height: 1.25em;
-
+  line-height: 1em;
+  margin: 0 0 0 0;
 }
+
+h5 {
+  font-family: "ff-cocon-web-pro", sans-serif;
+  font-size: 1.2em;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.5em;
+  margin: 10px 0 10px 0;
+}
+
 
 h3 {
   font-family: "ff-cocon-web-pro", sans-serif;
@@ -466,9 +477,21 @@ h4 {
 }
 
 p {
-  font-family: "report",sans-serif;
+  /*font-family: "report",sans-serif;*/
+  font-family: "ff-cocon-web-pro", sans-serif;
+  line-height: 1.5em;
   font-weight: 400;
   font-size: 1em;
+  padding-bottom: 0;
+}
+
+.p-chara {
+  font-family: "report", sans-serif;
+  line-height: 1.5em;
+  font-weight: 700;
+  font-size: 1em;
+  margin: 0 0 0 0;
+  padding-bottom: 0;
 }
 
 header {
@@ -562,13 +585,24 @@ ul li a {
 }
 
 #welcome-text {
-  padding-top: 10px;
+  padding: 10px 0 0 0;
   /*margin: 0 2.8%;*/
-  margin: 0 0 0 2.8%;
+  /*margin: 0 0 0 2.8%;*/
+  margin: 0 0 0 11%;
   color: #6D5C41;
   float: left;
-  width: 34%;
-  background-color: #FFECCB;
+  width: 37%;
+  /*background-color: #FFECCB;*/
+}
+
+#more-welcome-text {
+   padding: 10px 0 0 0;
+  /*margin: 0 2.8%;*/
+  /*margin: 0 0 0 2.8%;*/
+  margin: 0 11% 0 0;
+  color: #6D5C41;
+  float: right;
+  width: 37%;
 }
 
 #mid-lower-wrap {
@@ -621,16 +655,19 @@ ul li a {
 }
 
 footer {
-  width: 94.791666666667%;        /* 910 / 960 = 0.94791666666667 */
-  height: auto;
+  /*width: 94.791666666667%;  */      /* 910 / 960 = 0.94791666666667 */
+  width: 100%;
+/*  height: 10%;*/
   /*margin-top: 15px;*/
-  margin: 2.6041666666665% 2.6041666666665%;
-
-  padding-bottom: 5%;
+  /*margin: 2.6041666666665% 2.6041666666665%;*/
+  margin: 0 auto -10px auto;
+  padding-bottom: 2%;
 /*  width: 960px;
   height: auto;
   margin-top: 25px;*/
- /* background-color: orange;*/
+  background-color: orange;
+  /*display: inline;*/
+  text-align: center;
 }
 
 .para-set {
