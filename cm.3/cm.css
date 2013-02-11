@@ -570,12 +570,15 @@ ul li a {
 
 #mid-upper-wrap {
   width: 94.791666666667%;        /* 910 / 960 = 0.94791666666667 */
- /* margin: 25px 2.3%;*/
   margin: 25px 2.6041666666665%;
-  /*width: 960px;*/
   height: auto;
-  /*margin-top: 25px;*/
-  /*background-color: orange;*/
+}
+
+#mid-upper-wrap-video {
+  width: 94.791666666667%;        /* 910 / 960 = 0.94791666666667 */
+  margin: 25px 2.6041666666665%;
+  height: 300px;
+
 }
 
 #dog-photo-a {
@@ -647,7 +650,7 @@ ul li a {
 }
 
 .indent2 {
-  margin: 0 0 0 10%;
+  margin: 0 0 0 13%;
 }
 
 
