@@ -404,6 +404,7 @@ table {
 
 body {
   background-color: #86825e;
+  background-color: #988b6b;
 }
 
 .clearfix:after {
@@ -615,6 +616,49 @@ ul li a {
   width: 37%;
 }
 
+#offer-text {
+  padding: 10px 0 0 0;
+  /*margin: 0 2.8%;*/
+  /*margin: 0 0 0 2.8%;*/
+  margin: 0 0 0 11%;
+  color: #6D5C41;
+  float: left;
+  width: 37%;
+  /*background-color: #FFECCB;*/
+}
+
+#more-offer-text {
+   padding: 10px 0 0 0;
+  /*margin: 0 2.8%;*/
+  /*margin: 0 0 0 2.8%;*/
+  margin: 0 11% 0 0;
+  color: #6D5C41;
+  float: right;
+  width: 37%;
+    /* Safari 4+, Chrome 1-9 */
+   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(##e1e76b), to(#ffffff));
+
+   /* Safari 5.1+, Mobile Safari, Chrome 10+ */
+   background-image: -webkit-linear-gradient(top, #e1e76b, #ffffff); 
+
+   /* Firefox 3.6+ */
+   background-image: -moz-linear-gradient(top, #e1e76b, #ffffff);
+ 
+   /* IE 10+ */
+   background-image: -ms-linear-gradient(top, #e1e76b, #ffffff);
+
+   /* Opera 11.10+ */
+   background-image: -o-linear-gradient(top, #e1e76b, #ffffff);
+}
+
+#offer-text h5,
+#more-offer-text h5 {
+  font-family: "ff-cocon-web-pro", sans-serif;
+  font-size: 1.2em;
+  font-weight: 700;
+
+}
+
 #mid-lower-wrap {
   width: 94.791666666667%;        /* 910 / 960 = 0.94791666666667 */
   height: auto;
@@ -667,7 +711,7 @@ ul li a {
 footer {
   /*width: 94.791666666667%;  */      /* 910 / 960 = 0.94791666666667 */
   width: 100%;
-  height: 85px;
+  height: 50px;
 /*  height: 10%;*/
   /*margin-top: 15px;*/
   /*margin: 2.6041666666665% 2.6041666666665%;*/
@@ -676,8 +720,9 @@ footer {
 /*  width: 960px;
   height: auto;
   margin-top: 25px;*/
-  content: #9b2510;
-  background-color: #ded161;
+  /*background-color: #ded161;*/
+  background-color: #d3cc74;
+
   /*display: inline;*/
   text-align: center;
 }
@@ -716,6 +761,10 @@ footer h5 .p-chara {
 
 .indent {
   margin: 0 10px 20px 10px;
+}
+
+.indent2 {
+  margin: 0 0 0 10px;
 }
 
 .show-off{
@@ -801,20 +850,9 @@ li .tweetDate {
 .m2logo {
   margin: 10px auto 0 auto;
 
-
 }
 
-/*
-img.align-left {
-  float: left;
-  margin-right: 25px;
-}
 
-img.align-right {
-  float: right;
-  margin-left : 25px;
-}
-*/
 
 
 img {max-width: 100%;}
