@@ -496,7 +496,7 @@ h4 {
 p {
   font-family: "report",sans-serif;
 /*  font-family: "ff-cocon-web-pro", sans-serif;*/
-  line-height: 1.5em;
+  line-height: 1.75em;
   font-weight: 400;
   font-size: 1em;
   padding-bottom: 0;
@@ -659,8 +659,8 @@ ul li a {
   font-style: normal;
   margin: 0 0 0 0;
   padding: 0 0 5px 0;
-
 }
+
 #more-offer-text h5 {
   font-family: "ff-cocon-web-pro", sans-serif;
   font-size: 1.2em;
@@ -671,7 +671,7 @@ ul li a {
 }
 
 #more-offer-text p {
-  font-size: 0.9em;
+  font-size: 0.95em;
 
 }
 
