@@ -403,7 +403,7 @@ table {
 
 
 body {
-  background-color: #86825e;
+ /* background-color: #86825e;*/
   background-color: #988b6b;
 }
 
@@ -424,13 +424,15 @@ html[xmlns] .clearfix { display: block; }
 #container {
   width: 90%;
   max-width: 960px;
-  /*max-width: 100%;*/
-  /*background-color: yellow;*/
   background-color: #fff;
   margin: 0 auto;
 }
 
-
+#container-video {
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+}
 
 .bluedog {
   padding: 0 0 0 80%;
