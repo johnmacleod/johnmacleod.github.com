@@ -636,19 +636,19 @@ ul li a {
   float: right;
   width: 37%;
     /* Safari 4+, Chrome 1-9 */
-   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(##e1e76b), to(#ffffff));
+   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(##ffffff), to(#e1e76b));
 
    /* Safari 5.1+, Mobile Safari, Chrome 10+ */
-   background-image: -webkit-linear-gradient(top, #e1e76b, #ffffff); 
+   background-image: -webkit-linear-gradient(top, #ffffff, #e1e76b); 
 
    /* Firefox 3.6+ */
-   background-image: -moz-linear-gradient(top, #e1e76b, #ffffff);
+   background-image: -moz-linear-gradient(top, #ffffff, #e1e76b);
  
    /* IE 10+ */
-   background-image: -ms-linear-gradient(top, #e1e76b, #ffffff);
+   background-image: -ms-linear-gradient(top, #ffffff, #e1e76b);
 
    /* Opera 11.10+ */
-   background-image: -o-linear-gradient(top, #e1e76b, #ffffff);
+   background-image: -o-linear-gradient(top, #ffffff, #e1e76b);
 }
 
 #offer-text h5,
@@ -656,7 +656,23 @@ ul li a {
   font-family: "ff-cocon-web-pro", sans-serif;
   font-size: 1.2em;
   font-weight: 700;
+  margin: 0;
+}
 
+#more-offer-text p {
+  font-size: 0.9em;
+
+}
+
+.prog-serv {
+  font-weight: 700;
+}
+
+#five-dogs {
+  margin: 0 11% 0 0;
+  float: right;
+  width: 30%;
+  padding: 2.5% 0 0 0;
 }
 
 #mid-lower-wrap {
