@@ -463,8 +463,9 @@ h5 {
   font-size: 1.2em;
   font-style: italic;
   font-weight: 400;
-  line-height: 1.5em;
-  margin: 10px 0 10px 0;
+  line-height: 1.0em;
+  margin: 10px 0 0 0;
+  color: #8f4931;
 }
 
 
@@ -628,35 +629,45 @@ ul li a {
 }
 
 #more-offer-text {
-   padding: 10px 0 0 0;
-  /*margin: 0 2.8%;*/
-  /*margin: 0 0 0 2.8%;*/
+  padding: 10px 0 4% 0;
   margin: 0 11% 0 0;
   color: #6D5C41;
   float: right;
   width: 37%;
     /* Safari 4+, Chrome 1-9 */
    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(##ffffff), to(#e1e76b));
-
    /* Safari 5.1+, Mobile Safari, Chrome 10+ */
    background-image: -webkit-linear-gradient(top, #ffffff, #e1e76b); 
-
    /* Firefox 3.6+ */
    background-image: -moz-linear-gradient(top, #ffffff, #e1e76b);
- 
    /* IE 10+ */
    background-image: -ms-linear-gradient(top, #ffffff, #e1e76b);
-
    /* Opera 11.10+ */
    background-image: -o-linear-gradient(top, #ffffff, #e1e76b);
 }
 
-#offer-text h5,
+.indent2 {
+  margin: 0 0 0 10%;
+}
+
+
+#offer-text h5 {
+  font-family: "ff-cocon-web-pro", sans-serif;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  font-weight: 700;
+  font-style: normal;
+  margin: 0 0 0 0;
+  padding: 0 0 5px 0;
+
+}
 #more-offer-text h5 {
   font-family: "ff-cocon-web-pro", sans-serif;
   font-size: 1.2em;
   font-weight: 700;
-  margin: 0;
+  font-style: normal;
+  height: 1.5em;
+  margin: 0 0 0 8%;
 }
 
 #more-offer-text p {
@@ -779,9 +790,6 @@ footer h5 .p-chara {
   margin: 0 10px 20px 10px;
 }
 
-.indent2 {
-  margin: 0 0 0 10px;
-}
 
 .show-off{
   display: none;
