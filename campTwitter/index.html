@@ -18,7 +18,7 @@ $(document).ready(function() {
 
   //var query = "birds";
   //var url="http://search.twitter.com/search.json?q=" + query + "&rpp=5&include_entities=true&result_type=mixed&callback=?";
-$.getJSON('https://api.twitter.com/1/statuses/user_timeline.json?screen_name=' + username + '&rpp=5&include_entities=true&result_type=mixed&callback=?&count=100',
+$.getJSON('https://api.twitter.com/1/statuses/user_timeline.json?screen_name=' + username + '&rpp=5&include_entities=true&result_type=mixed&callback=?&count=500',
           function(data) {
             $.each(data,function() {
               var tweet = this;

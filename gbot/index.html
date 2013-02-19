@@ -6,12 +6,34 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
     <link rel="stylesheet" type='text/css' href="gbot-style.css" />
     <link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700' rel='stylesheet' type='text/css'/>
+    <!-- <script type="text/javascript" src="nav.js"></script> -->
     <script src="scripts/modernizr-v2.6.2.js"></script>
 	
+    <script type="text/javascript">
+
+    	function mOver(obj) {
+			obj.style.backgroundImage="url(images/page-indicator.png)";
+			obj.style.backgroundRepeat="no-repeat";
+			obj.style.backgroundPosition="18px 0";
+		}
+		function mOut(ojb) {
+			obj.style.backgroundImage.display="none";
+			// obj.style.backgroundImage="url(images/page-indicator-blank)";
+			// obj.style.backgroundRepeat="no-repeat";
+			// obj.style.backgroundPosition="18px 0";			
+			//obj.style.backgroundPosition="1800px 0";
+			// obj.style.backgroundImage="url(images/page-indicator-blank.png)";
+			// obj.style.backgroundRepeat="no-repeat";
+			// obj.style.backgroundPosition="18px 0"
+		}
+			
+    </script>
+
+
 </head>
 
 <body class="homepage">
-	<div id="wrapper">
+	<div id="home-wrapper">
 
 		<header> <!-- This header includes the banner and logo -->
 
@@ -29,16 +51,24 @@
 			
 			<section class="left-section">
 				<nav class="vert-menu">
+				<!-- <nav id="vert-menu"> -->
 					<ul>
+				<!-- 		<li onmouseover="mOver(this)" onmouseout="mOut(this)" class="homepage"><a href="index.html"><img src="images/home.png"></a></li> -->
+                       <!--  <li><a href="index.html"><img src="images/home.png"></a></li> -->
+
+						<!-- <li class="businesspage"><a href="businesspage.html"><img src="images/business.png"></a></li> -->
+				<!-- 		<li><a href="businesspage.html"><img src="images/business.png"></a></li>
+						<li class="newspage"><a href="newspage.html"><img src="images/news.png"></a></li> -->
 						<li class="homepage"><a href="index.html"><img src="images/home.png"></a></li>
 						<li class="businesspage"><a href="businesspage.html"><img src="images/business.png"></a></li>
-						<li class="newspage"><a href="newspage.html"><img src="images/news.png"></a></li>
+						<li class="newspage"><a href="newspage.html"><img src="images/news.png"></a></li>						
 						<li><a href="#"><img src="images/about.png"></a></li>
 						<li><a href="#"><img src="images/leadership.png"></a></li>
 						<li><a href="#"><img src="images/bylaws.png"></a></li>
 						<li><a href="#"><img src="images/membership.png"></a></li>
 						<li><a href="#"><img src="images/contactUs.png"></a></li>
 						<li><a ></a></li>
+					</ul>
 				</nav>
 			</section><!-- END "left-section" -->
 		
@@ -91,17 +121,18 @@
 		<footer>
 			<p class="footer-text">site design: scottwilsondesign.com &nbsp; &nbsp; site development: Steve Webber and John Macleod</p>
 
-			<nav class="horiz-menu">
+<!-- 			<nav class="horiz-menu">
 				<ul>
 					<li><a href="#">Home</a></li>
 					<li><a href="#">Grotonfest</a></li>
 					<li><a href="#">List of Members</a></li>
 					<li><a href="#">Privacy Policy</a></li>
 				</ul>
-			</nav>
+			</nav> -->
 
 		</footer>
 
 	</div><!-- END "wrapper" -->
 </body>
+	<script src="nav.js"></script>
 </html>

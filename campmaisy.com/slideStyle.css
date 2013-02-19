@@ -1,0 +1,99 @@
+	/*
+			Load CSS before JavaScript
+		*/
+		
+		/*
+			Slides container
+			Important:
+			Set the width of your slides container
+			Set to display none, prevents content flash
+		*/
+		#slides .slides_container {
+			width:330px;
+			height:442px;
+			display:none;
+			z-index: 1000;
+		}
+
+		/*
+			Each slide
+			Important:
+			Set the width of your slides
+			If height not specified height will be set by the slide content
+			Set to display block
+		*/
+
+		
+		#slides .slides_container div {
+			width:330px;
+			height:442px;
+			display:block;
+
+		}
+		
+		/*
+			Slides container
+			Important:
+			Set the width of your slides container
+			Set to display none, prevents content flash
+	
+		/*
+			Each slide
+			Important:
+			Set the width of your slides
+			If height not specified height will be set by the slide content
+			Set to display block
+		*/
+		
+		#slides_three .slides_container div {
+			width:200px;
+			height:100px;
+			display:none;
+		}
+		
+		/* 
+			Example only
+		*/
+
+		.pagination {
+			display: none;
+		}
+
+		.pagination .current a {
+			/*color:red;*/
+		
+
+		}
+		hr {
+			/*background:#efefef;*/
+		}
+
+/*****************************************************************************************/
+/*****************************************************************************************/
+/*****************************************************************************************/
+/*****************************************************************************************/
+/*************   M E D I A   Q U E R Y  max width: 320 ***********************************/
+/*****************************************************************************************/
+/*****************************************************************************************/
+/*****************************************************************************************/
+/*****************************************************************************************/
+/*****************************************************************************************/
+@media screen and (max-width: 320px) {
+img {max-width: 100%;}
+
+
+#slides 
+.slides_container {
+	width: 255px;
+	height: 342px;
+	display: none;
+}
+
+
+#slides .slides_container div {
+	width:255px;
+	/*height:342px;*/
+	display:block;
+
+}
+
