@@ -1,0 +1,161 @@
+[-- DEFINE LINK_TO_PAGE --]
+<a href="[-- OUTPUT_DIRECTORY_URL --]/[-- PAGE.FileName --]">
+[-- IF PAGE.LinkGraphic --][-- PAGE.LinkGraphic --]
+[-- END_IF --]
+[-- IF PAGE.LinkName --][-- PAGE.LinkName --][-- ELSE --][-- PAGE.Name --][-- END_IF --]
+[-- IF PAGE.LinkText --]
+[-- PAGE.LinkText --][-- END_IF --]
+[-- END_DEFINE LINK_TO_PAGE --]
+
+[-- DEFINE PAGE --]
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Vintage Airplane Tshirts</title>
+<!-- TemplateEndEditable -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+<script src="jquery.slideViewerPro.1.5.js" type="text/javascript"></script>
+
+<!-- Blueprint Framework CSS -->  
+<link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" media="screen, projection">  
+<link rel="stylesheet" href="css/blueprint/print.css" type="text/css" media="print">  
+<!--[if IE]><link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->  
+<link rel="stylesheet" href="css/vintageAirplane.css" type="text/css">
+
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+  <div class="body_backgnd">
+    <div class="container showgrid">
+    <!-- <div class="container showgrid"> -->
+    
+      <div class="header"> <!-- This includes the banner consisting of the logo and logo text-->
+        <div class="logo">
+          <a href="/index.html" title="Vintage Airplane T-shirts Home">
+            <img src="images/airplaneB17_1x.png" width="308" height="89" alt="B17 logo">
+          </a>
+        </div><!-- end .logo -->
+        
+        <div class="logo_text">
+          <img src="images/vintageAirplaneTshirts_txt02.png" width="577" height="52" alt="Vintage Airplane T-shirts">
+        </div><!-- end .logo_text -->
+      </div><!-- end .header -->     
+    
+    <nav class="upper_nav">
+      <ul>
+        <li><a href="photos.html">Photos</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="links.html">Links</a></li>
+        <li><a href="view_cart.html">View Cart</a></li>
+      </ul>
+    </nav><!-- end .upper_nav -->
+    <!-- TemplateBeginEditable name="pictureBackgnd" -->
+    <div id=picture_backgnd>
+      <div class="left_sidebar">
+        <div class=" prepend-top prepend-1 span-5">
+          <h2>Airplanes</h2>
+          <nav class="left_nav">
+            <ul>
+              <li><a href="b17.html">Boeing B17</a></li>
+              <li><a href="dc3.html">Douglas DC3 | C47</a></li>
+              <li><a href="piper.html">Piper Cub</a></li>
+            </ul>
+          </nav>
+          <!-- end .upper_nav -->
+          <p>Here is some text . . . </p>
+        </div>
+        <!-- end class=" prepend-top prepend-1 span-4" -->
+      </div>
+      <!-- end .left_sidebar -->
+    </div>
+    <!-- end #picture_backgnd -->
+    <!-- start ShopSite stuff -->
+    <table width="100%">
+ <tr>
+  <td align="left">
+ [-- IF PAGE.DisplayPageHeader --]
+  [-- HEADER --]
+ [-- END_IF --]
+ 
+ [-- IF PAGE.DisplayName --]
+  [-- IF PAGE.Name --]
+   <h1>[-- PAGE.Name --]</h1>
+  [-- END_IF --]
+ [-- END_IF --]
+ 
+ [-- IF PAGE.DisplayGraphic --]
+  [-- IF PAGE.Graphic --]
+    <img [-- PAGE.Graphic REMOVE_HTML --] align="right">
+  [-- END_IF --]
+ [-- END_IF --]
+ 
+ [-- IF PAGE.Text1 --]
+  <p>[-- PAGE.Text1 --]</p>
+ [-- END_IF --]
+ 
+ [-- INCLUDE Page-Layout PROCESS --]
+ 
+ [-- IF PAGE.NumLinks 0 --]
+ [-- ELSE --]
+ <table class="Products" width="100%" align="center" border="[-- VAR.border --]" cellpadding="3">
+  [-- LOOP LINKS PAGE.Columns --]
+   <td valign="top" align="[-- VAR.align --]">[-- LINK --]</td>
+ [-- END_LOOP LINKS --]
+ </table>
+ [-- END_IF --]
+ 
+ [-- IF PAGE.Text2 --]
+  <p>[-- PAGE.Text2 --]</p>
+ [-- END_IF --]
+ 
+ [-- IF PAGE.NumProducts 0 --]
+ [-- ELSE --]
+ <table class="Products" width="100%" align="center" border="[-- VAR.border --]" cellpadding="3">
+  [-- LOOP PRODUCTS PAGE.Columns --]
+   <td valign="top" align="[-- VAR.align --]">[-- PRODUCT --]</td>
+  [-- END_LOOP PRODUCTS --]
+ </table>
+ [-- END_IF --]
+ 
+ [-- IF PAGE.ProductsPerPage "0" --]
+ [-- ELSE --]
+  <div class="pagination">[-- PREVNEXT --]</div>
+ [-- END_IF --]
+ 
+ [-- IF PAGE.DisplayPageFooter --]
+  [-- FOOTER --]
+ [-- END_IF --]
+ 
+ [-- IF PAGE.Text3 --]
+  <p>[-- PAGE.Text3 --]</p>
+ [-- END_IF --]
+ 
+ [-- IF Page.GlobalCrossSell --]
+ <table class="gcs_table">
+ <caption>[-- STORE.GlobalCrossSellHeader --]</caption>
+  [-- LOOP GLOBAL_Cross_Sell 3 --]
+   <td class="gcs_table_content">[-- GLOBAL_CROSS_SELL --]</td>
+  [-- END_LOOP Global_Cross_Sell --]
+ </table>
+ [-- END_IF --]
+   </td>
+  </tr>
+ </table> 
+    
+    
+    <!-- end ShopSite stuff -->
+	</div><!-- end .container -->
+ 
+  </div><!-- end div id="body_backgnd"-->
+       <!-- TemplateEndEditable -->
+</body>
+<script src="upperNav.js"></script> 
+<script src="leftNav.js"></script> 
+  
+</html>
+[-- END_DEFINE PAGE --] 

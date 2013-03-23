@@ -1,0 +1,389 @@
+@charset "utf-8";
+/* CSS Document */
+
+.body_backgnd {
+	background: #8B7052 repeat;
+	padding-top: 30px;
+	padding-bottom: 100%;
+}
+
+
+.header {
+	height: 110px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-right: 12px;
+	background: #470606;
+/*	border-top: 1px solid #D31212;
+	border-right: 1px solid #D31212;	*/
+/*	border-bottom: 1px solid #36748A;*/
+/*	border-top: 1px solid #36748A;	*/
+
+}
+
+.logo {
+	width: 310px;
+	height: 90;
+	float: left;
+}
+
+.logo_text {
+	width: 600px;
+	height: 60px;
+	float: right;
+	margin-top: 0px;
+	top: 0px;
+	padding-top: 25px;
+	padding-left: 10px;
+}
+/*****************************************************/
+/******************** Upper Nav Bar*******************/
+/*****************************************************/
+.upper_nav { background: #18343E; margin: 0px; padding: 0px 0px 0px 120px; list-style: none; overflow: hidden;	}
+                                                               
+.upper_nav ul { list-style-type: none; width: 950px; background-color: #18343E; /* dark blue */ }
+
+.upper_nav ul li { float: left; }
+
+.upper_nav ul li a {
+	display:block;
+	padding: 0 55px;
+	height: 32px; /* 4may2012  addition */
+	line-height: 32px;
+	/* line-height: 32px 4may2012 */
+	background-color: #18343E; /* dark blue */
+	border-right: 1px solid #18343E;
+	border-left: 1px solid #18343E;
+	/* font: 15px/30px; */
+	
+	text-decoration: none;
+	color: #FFF;
+	/* font: 15px/32px "proxima-nova-alt", sans-serif;	*/
+	font: 15px/33px "proxima-nova-alt", sans-serif;
+}
+
+.upper_nav ul li a:link, .upper_nav ul li a:visited {    }
+
+.upper_nav ul li a:hover, .upper_nav ul li a:active {
+	background: #470606; /* crimson */
+	height: 32px; /* 4may2012 */
+	/*line-height: 32px; */
+	border-right: 1px solid #D31212;
+	border-left: 1px solid #000;
+
+
+}
+/*****************************************************/
+/*****************End Upper Nav Bar*******************/
+/*****************************************************/	
+	
+	
+#picture_backgnd {
+	background: url(../images/C45beechcraft_darker.jpg);
+	height: 570px;
+	width: 950px;
+	
+}
+
+#picture_backgnd_photos {
+	height: 570px;
+	width: 950px;
+	background: url(../images/roughamAirfield_96ppi001.jpg);
+}
+
+#picture_backgnd_about {
+	height: 1200px;
+	width: 950px;
+	background: url(../images/94thFormation_about.jpg);
+}
+
+#picture_backgnd_links {
+	height: 570px;
+	width: 950px;
+	background: url(../images/veteranPilots10hrs.jpg);
+}
+
+#picture_backgnd_viewCart {
+	height: 570px;
+	width: 950px;
+}
+
+#picture_backgnd_cart{
+	background: url(../images/C47-takeOff.jpg);
+	height: 570px;
+	width: 950px;
+	
+}
+
+#picture_backgnd_b17 {
+	height: 570px;
+	width: 950px;
+	background: url(../images/b17crewAfterMission_01.jpg);
+}
+
+#picture_backgnd_dc3 {
+	height: 570px;
+	width: 950px;
+	background: url(../images/C47-takeOff.jpg);
+}
+
+#picture_backgnd_piperCub {
+	height: 570px;
+	width: 950px;
+	background: url(../images/piperCub001.jpg);
+}
+
+#picture_backgnd_checkout {
+	background: url(../images/extendedBackgnd.jpg);
+	height: 1000px;
+	width: 950px;
+
+}
+
+.left_sidebar {
+	font: bold 12px Verdana, Geneva, sans-serif;
+	color: #FFF;
+	
+}
+
+left_hdr_txt  {
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFF;	
+}
+
+/*****************************************************/
+/*********************Left Nav Bar********************/
+/*****************************************************/
+
+.left_nav {
+
+}
+                                                               
+.left_nav ul {
+	padding-left: 0px;
+	list-style-type: none;
+	width: 150px;
+	background-color: #527B8B;
+
+
+}
+
+.left_nav ul li {
+	list-style: none;
+	text-align: left;
+
+}
+
+.left_nav ul li a {
+	display: block;
+	color: #FFF;
+	font-weight: normal;
+	text-align: left;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	border-top: 1px solid #7EC1D7;
+	border-right: 1px solid #7EC1D7;	
+	border-left: 1px solid #2C434B;	
+	border-bottom: 1px solid #2C434B;
+	padding-top: 2px;
+	padding-left: 30px;
+	padding-bottom: 2px;
+
+
+}
+/*
+.left_nav a:hover,
+.left_nav a:focus,
+	.left_nav .selected a {
+		background-color: #470606;
+	}
+*/
+
+.left_nav ul li a:link, .left_nav ul li a:visited {
+
+		
+}
+
+.left_nav ul li a:hover, .left_nav ul li a:active {
+	/*border-top: 1px solid #ED5C5C;
+	border-right: 1px solid #ED5C5C;
+	border-left: 1px solid #471C1C;
+	border-bottom: 1px solid #471C1C;
+	background-color: #602525;*/
+		
+	border-top: 1px solid #ED5D5D;
+	border-right: 1px solid #ED5D5D;
+	border-left: 1px solid #471C1C;
+	border-bottom: 1px solid #471C1C;
+	background-color: #782F2F;
+		
+		
+		
+	
+}
+#photoGlry {
+	float: right;
+	padding-top: 59px;
+	padding-right: 40px;
+}
+
+
+#leftSideTxt {
+	font-size: 11px;
+	font-weight: bold;
+	
+}
+
+
+
+.photoTable {
+	font: 11px Verdana, Geneva, sans-serif;
+	/*	color: #FFF; */
+	/* border-style: none; */
+
+	background:none;
+}
+
+.photoTable tr th {
+	text-align: left;
+	font-weight: bold;
+	border-top-style:solid;
+	border-top-color: white;
+	border-width: 1px;	
+	
+}
+
+#shopSiteArea {
+	
+}
+
+b17Tshirt_product {
+	float: none;
+	color: #FFF;
+}
+
+#b17Txt {
+	float: none;
+	color: #FFF;
+}
+
+.prodShirt {
+	float: left;	
+}
+
+#cupTxt {
+	float: right;
+	
+}
+
+.test_backgnd {
+	background: #715B43;	
+}
+
+h10 {font-family: "proxima-nova-alt",sans-serif; font-size:14px; font-weight:300; font-style:normal; line-height: 18px; color:#FFF;}
+h12 {font-family: "proxima-nova-alt",sans-serif; font-size:12px; font-weight:300; font-style:normal; line-height:12px; color:#FFF;}
+ p {font-family: "proxima-nova-alt",sans-serif; font-size:15px; line-height: normal;  font-weight: 500; color:#FFF; }
+h6 {font-family: "proxima-nova-alt",sans-serif; font-size:18px; font-weight:400; font-style:italic; color:#FFF;}
+h7 {font-family: "proxima-nova-alt",sans-serif; font-size:18px; font-weight:400; font-style:normal; color:#FFF;}
+h6 {font-family: "proxima-nova-alt",sans-serif; font-size:18px; font-weight:400; font-style:italic; color:#FFF;}
+h7 {font-family: "proxima-nova-alt",sans-serif; font-size:18px; font-weight:400; font-style:normal; color:#FFF;}
+h5 {font-family: "proxima-nova-alt",sans-serif; font-size:22px; font-weight:400; margin-bottom: 5px; font-style:italic; color:#FFF; margin-top: 5px;}
+h4 {font-family: "proxima-nova-alt",sans-serif; font-size:30px; font-weight:500; font-style:normal; line-height:30px; color:#FFF; margin-bottom: 15px; margin-top: 15px;} 
+h1 {font-family: "proxima-nova-alt",sans-serif; font-size:32px; font-weight:500; font-style:normal; color:#FFF;} /* Override font weight and style 16Apr2012 */
+h3 {font-family: "proxima-nova-alt",sans-serif; font-size:32px; font-weight:500; line-height: normal; margin-bottom:1em; font-style:italic; color:#FFF;}
+
+
+
+h8 {font-family: "urbana",sans-serif; font-size:22px; font-weight:400; font-style:normal; color:#FFF;}
+h11 {font-family: "urbana",sans-serif; font-size:22px; font-weight:500; font-style:normal; color:#FFF;}
+h9 {font-family: "urbana",sans-serif; font-size:26px; font-weight:400; font-style:normal; color:#FFF;}
+
+.center_img_vert {
+
+	
+}
+
+a:focus, a:hover {
+	color:#FFF;
+}
+
+#content_txt {
+	line-height: 24px;
+	margin-top: 20px;
+}
+
+li {
+	color:#FFF;
+}
+
+.textShadow {
+	text-shadow: #BD905D 3px 3px 1px;
+}
+
+#begin {
+	/*overflow:auto;*/
+	height: 350px;
+	margin-top: 40px;
+	float: left;
+}
+
+#rightColumnAbout {
+	margin-top: 40px;
+	float: left;
+}
+
+#about_summary {
+	margin-top: 135px;
+}
+
+.addToBottom {
+	margin-bottom: 10px;
+}
+
+.addToBottom-20 {
+	padding-bottom: 20px;
+}
+
+
+.chg_email {
+	color: #FFF;
+	font-style: normal;
+	text-decoration: underline;	
+}
+
+.chg_lnk {
+	color: #FFF;
+	text-decoration: underline; 	
+}
+
+#checkout_1 {
+	background: url(../images/94thBG950wX1000h.jpg);
+	width:950px;
+	height:1000px;
+}
+
+#checkout_2 {
+	background: url(../images/billingBackgnd.png);	
+	width:950px;
+	height:1720px;
+	
+}
+
+#checkout_3 {
+	background: url(../images/brussels950x1240.jpg);	
+	width:950px;
+	height: 1240px;
+	
+}
+
+#linkContent {
+	float: left;
+	margin-top: 30px;
+	text-decoration: none;
+	
+}
+
+.move12toR {
+	margin-left: 12px
+}
