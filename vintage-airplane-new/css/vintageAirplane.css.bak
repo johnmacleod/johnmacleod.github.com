@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS Document */
+
+#body_backgnd {
+	background: #8B7052;
+	padding-top: 30px;
+}
+
+.header {
+	height: 110px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-right: 12px;
+	background: #470606;
+}
+
+.logo {
+	width: 310px;
+	height: 90;
+	float: left;
+}
+
+.logo_text {
+	width: 610px;
+	height: 70px;
+	float: right;
+	margin-top: 0px;
+	top: 0px;
+	padding-top: 20px;
+}
+/*****************************************************/
+/******************** Upper Nav Bar*******************/
+/*****************************************************/
+.upper_nav {
+	height: 31px;
+	background: #18343E;
+	padding: 0px;
+}
+                                                               
+.upper_nav ul {
+	list-style-type: none; /* this setting gets rid of the bullets */
+	/*background: #18343E;*/
+	display: inline;	
+	padding-left: 145px;
+	
+}
+
+.upper_nav ul li {
+	 background: #18343E;
+	/*float: left; /* this setting makes it a horizontal menu */
+	display: inline;
+	/* font: 14px/30px "Arial Black", Gadget, sans-serif; */
+	color: #FFF;
+	text-decoration: none;
+	padding: 9px 55px 7px;
+	border-right: 2px solid #18343E;
+	border-left: 1px solid #18343E;
+}
+
+.upper_nav ul li a {
+	font: 14px/30px "Arial Black", Gadget, sans-serif;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.upper_nav ul li a:link, .upper_nav ul li a:visited {
+	
+}
+
+.upper_nav ul li:hover, .upper_nav ul li:active {
+	background: #470606;
+	height: 30px;
+	line-height: 30px;
+	border-right: 2px solid #933939;
+	border-left: 1px solid #930C0C;
+	
+}
+	
+	
+	
+#picture_backgnd {
+	background: url(../images/decoC45_960x640-20pcnt.png);
+	height: 510px;
+	width: 950px;
+	
+}
+
+
+.left_sidebar {
+	
+}
+
+left_hdr_txt  {
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFF;	
+}
+
+/*****************************************************/
+/*********************Left Nav Bar********************/
+/*****************************************************/
+
+.left_nav {
+
+}
+                                                               
+.left_nav ul {
+	padding-left: 0px;
+/*	padding-bottom: 10px; */
+	list-style-type: none;
+	width: 150px;
+	background-color: #527B8B;
+/*	border: 1px solid #7EC1D7;
+*//*	display: block;*/
+
+
+}
+
+.left_nav ul li {
+	list-style: none;
+	text-align: left;
+
+	/* width: 130px; */
+/*	background: #527B8B;
+	padding-left: 40px;*/
+/*	padding-top: 5px;
+	padding-bottom: 5px;*/
+	/*display: block;	*/
+
+}
+
+.left_nav ul li a {
+	display: block;
+	color: #FFF;
+	font-weight: bolder;
+	text-align: left;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	border-top: 1px solid #7EC1D7;
+	border-right: 1px solid #7EC1D7;	
+	border-left: 1px solid #2C434B;	
+	border-bottom: 1px solid #2C434B;
+	padding-top: 2px;
+	padding-left: 30px;
+	padding-bottom: 2px;
+
+
+}
+
+.left_nav ul li a:link, .left_nav ul li a:visited {
+	
+}
+
+.left_nav ul li:hover, .left_nav ul li:active {
+
+	
+}
