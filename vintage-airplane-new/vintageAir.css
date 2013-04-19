@@ -17,6 +17,14 @@ body {
 	margin: 0 auto;
 	background: url(images/backgnd-02.png);
 	width: 1036px;
+	height: 1681px;
+
+}
+
+#wrapper-archives {
+	margin: 0 auto;
+	background: url(images/backgnd-03.png);
+	width: 1036px;
 	height: 1534px;
 
 }
@@ -62,15 +70,16 @@ body {
 	font-size: 20px;
 }
 
-
-.upper_nav ul li a:hover, .upper_nav ul li a:active {
-	background: #6D6E70; /* crimson */
-}
-
 h2 {
 	font-family: 'Domine', serif;
 	font-size: 13px;
 	line-height: 24px;
+	color: #fff;
+}
+h3 {
+	font-family: 'Domine', serif;
+	font-size: 12px;
+	line-height: 21px;
 	color: #fff;
 }
 
@@ -92,8 +101,6 @@ h2 {
 	width: 312px;
 }
 
-
-
 p {
 	font-family: 'Domine', serif;
 	font-size: 18px;
@@ -101,9 +108,60 @@ p {
 	color: #fff;
 }
 
+#planeTable {
+	margin: 0 0 0 226px;
+}
 
-	/*line-height: 32px; */
-/*	border-right: 1px solid #D31212*/
+table {
+	width: 585px;
+}
+
+th, td {
+	padding: 7px 10px 10px 10px;
+	font-family: 'Domine', serif;
+	font-size: 14px;
+	color: #fff;
+
+}
+
+th  {
+	text-transform: uppercase;
+	border-top: 1px solid #fff;
+	border-bottom: 2px solid #fff;
+	text-align: left;
+}
+
+tr.even {
+	background-color: #8B7052;
+}
+
+#photoGlry {
+	padding: 50px 0 0 226px;
+
+}
+
+
+/*************************************************************/
+/****************** Navigation & Hover  **********************/
+/*************************************************************/
+
+.home-page .home-page a,
+.story-page .story-page a,
+.archives-page .archives-page a {
+	color: #5fc9df;
+}
+
+
+.home-page a:hover,
+.story-page a:hover,
+.archives-page a:hover {
+	color: #45909F;
+}
+
+
+
+
+
 
 
 
