@@ -1,0 +1,30 @@
+.navbar-inner {
+	min-height: 142px;
+	margin-bottom: 20px;
+}
+
+.more-height {
+	margin-top: 150px;
+
+}
+
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+.more-height {
+	margin-top: 10px;
+
+}
+
+}
+
+
+
+@media (max-width: 767px) {
+
+.more-height {
+	margin-top: 10px;
+
+}
+
+}
