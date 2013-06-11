@@ -1,0 +1,27 @@
+<!-- Problem 1
+Use JavaScript to write a function that takes a number as its argument. If the number is less than 10, the function should return "small"; if the number is 10 or greater, but less than 100, the function should return "medium"; if the number is 100 or greater, the function should return "large". -->
+
+<!doctype html>
+<html>
+<body>
+
+	<button onclick="numstatus()">Click here!</button>
+
+	<script type="text/javascript">
+		function numstatus() {
+
+			var num=prompt("Please enter a number: ", "number")
+
+			if (num!=null && num<10) {
+				alert("small");
+			}  else if (num>10 && num<100) {
+				alert("medium");
+			}  else if (num>=100) {
+				alert("large");
+			}
+		}
+	</script>
+
+</body>
+</html>
+

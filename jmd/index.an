@@ -1,0 +1,82 @@
+{
+
+	"HTMLFileName":"index.html",
+	"pref__general__AutoKeyframePropertiesArmed":"false",
+	"viewStartMs":"-47.314086914062",
+	"symbol_stage":{
+		"element_${_copy} > h2:nth-child(6)":{
+			"timelineColor2":"0x1095d2",
+			"animationEnabled":"true",
+			"timelineColor3":"0x29647e",
+			"timelineColor":"0x00a9fa"},
+		"element_${_copy} > h2:nth-child(5)":{
+			"timelineColor2":"0x326a96",
+			"animationEnabled":"true",
+			"timelineColor3":"0x385063",
+			"timelineColor":"0x2f73ad"},
+		"element_${_copy} > h2:nth-child(4)":{
+			"timelineColor2":"0x168c84",
+			"timelineColor3":"0x2a605c",
+			"timelineColor":"0x00a096",
+			"timelineTreeOpened":"false",
+			"animationEnabled":"true"},
+		"element_${_copy} > h2:nth-child(3)":{
+			"timelineColor2":"0x1aa38f",
+			"timelineColor3":"0x2a6a61",
+			"timelineColor":"0x00bda4",
+			"timelineTreeOpened":"false",
+			"animationEnabled":"true"},
+		"element_${_copy} > h2:nth-child(2)":{
+			"timelineColor2":"0x4fa275",
+			"timelineColor3":"0x456a55",
+			"timelineColor":"0x50bd82",
+			"timelineTreeOpened":"false",
+			"animationEnabled":"true"},
+		"element_${_copy} > h2:nth-child(1)":{
+			"timelineColor2":"0x81aa62",
+			"timelineColor3":"0x5b6c4d",
+			"timelineColor":"0x91c767",
+			"timelineTreeOpened":"false",
+			"animationEnabled":"true"},
+		"element_${_logo}":{
+			"timelineColor2":"0xcbbd71",
+			"invisible":"false",
+			"timelineColor":"0xeedf79",
+			"timelineTreeOpened":"false",
+			"animationEnabled":"true",
+			"timelineColor3":"0x7b7652"}},
+	"TransitionIdCounter":"44",
+	"CompZoomFactor":"100",
+	"viewStartY":"0",
+	"pixelsPerMs":"0.10567674521066",
+	"ModelData":"{\
+\"stage\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+            \"ElementKeyframes\": {\
+                \"${_copy} > h2:nth-child(2)\": [], \
+                \"${_copy} > h2:nth-child(6)\": [], \
+                \"${_copy} > h2:nth-child(3)\": [], \
+                \"${_copy} > h2:nth-child(1)\": [], \
+                \"${_copy} > h2:nth-child(4)\": [], \
+                \"${_logo}\": [], \
+                \"${_copy} > h2:nth-child(5)\": []\
+            }\
+      }\
+   }},\
+\"Preloader\": {\
+   \"timelines\": {\
+\
+   }},\
+\"Down-level\": {\
+   \"timelines\": {\
+\
+   }}\
+}",
+	"usedBOM":"false",
+	"stage-Default Timeline_mark_ms":"-1",
+	"nextElementColorIndex":"8",
+	"stage-Default Timeline_playhead_ms":"10992",
+	"pref__general__GenerateSmoothTransitions":"true",
+	"pref__general__AutoKeyframeProperties":"true",
+	"StageZoomFactor":"100"}
