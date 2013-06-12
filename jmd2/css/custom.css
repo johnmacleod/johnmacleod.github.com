@@ -1,5 +1,5 @@
 .navbar-inner {
-	min-height: 142px;
+	min-height: 112px;
 	margin-bottom: 20px;
 }
 
@@ -21,9 +21,11 @@
 
 .more-height {
 	margin-top: 10px;
-
 }
-
+.navbar-inner {
+	min-height: 95px;
+	margin-bottom: 20px;
+}
 
 }
 
