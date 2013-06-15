@@ -1,6 +1,7 @@
 .navbar-inner {
 	min-height: 112px;
 	margin-bottom: 20px;
+
 }
 
 
@@ -15,6 +16,51 @@
 #footer {
 
 }
+/********************************/
+/*********Color******************/
+/********************************/
+
+.navbar .brand {
+  color: #cccccc;
+}
+
+.navbar-inverse .nav .active > a,
+.navbar-inverse .nav .active > a:hover,
+.navbar-inverse .nav .active > a:focus {
+  color: #ffffff;
+  background-color: #265573;
+}
+
+.navbar-inverse .navbar-link {
+  color: #cccccc;
+}
+
+.navbar-inverse .navbar-inner {
+
+background: -moz-linear-gradient(top,  rgba(38,85,115,1) 0%, rgba(38,85,115,1) 54%, rgba(38,85,115,0.71) 90%, rgba(38,85,115,0.58) 99%, rgba(38,85,115,0.56) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(38,85,115,1)), color-stop(54%,rgba(38,85,115,1)), color-stop(90%,rgba(38,85,115,0.71)), color-stop(99%,rgba(38,85,115,0.58)), color-stop(100%,rgba(38,85,115,0.56))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(38,85,115,1) 0%,rgba(38,85,115,1) 54%,rgba(38,85,115,0.71) 90%,rgba(38,85,115,0.58) 99%,rgba(38,85,115,0.56) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(38,85,115,1) 0%,rgba(38,85,115,1) 54%,rgba(38,85,115,0.71) 90%,rgba(38,85,115,0.58) 99%,rgba(38,85,115,0.56) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(38,85,115,1) 0%,rgba(38,85,115,1) 54%,rgba(38,85,115,0.71) 90%,rgba(38,85,115,0.58) 99%,rgba(38,85,115,0.56) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(38,85,115,1) 0%,rgba(38,85,115,1) 54%,rgba(38,85,115,0.71) 90%,rgba(38,85,115,0.58) 99%,rgba(38,85,115,0.56) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#265573', endColorstr='#8f265573',GradientType=0 ); /* IE6-9 */
+
+
+border: none;
+
+background-repeat: repeat-x;
+
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+     -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+
+}
+
+#footer {
+
+  
+}
+
 
 
 /********************************/
