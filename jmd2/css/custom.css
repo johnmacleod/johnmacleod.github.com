@@ -11,7 +11,8 @@ bottom: 0;
 left: 0;
 padding: 15px;
 background: #333333;*/
-background: rgba(0, 0, 0, 0.25);
+background: rgba(0, 0, 0, 0.18);
+}
 
 
 .more-height {
@@ -47,7 +48,7 @@ background: rgba(0, 0, 0, 0.25);
 .navbar-inverse .navbar-inner {
 
 
-background: #34495d;
+background: #34495e;
 
 
 border: none;
@@ -110,10 +111,10 @@ background-repeat: repeat-x;
 
         /*background-color: #95a5a6; */         /*  Concrete */
         /*background-color: #ecf0f1;*/          /*  Clouds */
-        /*background-color: #7f8c8d;    */      /*  Asbestos */
+        background-color: #95a5a6;          /*  Asbestos */
         /*background-color: #bdc3c7;*/          /*  Silver */
 
-        color: #34495d;
+        color: #464D4D;
 
       }
 
