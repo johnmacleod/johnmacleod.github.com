@@ -28,7 +28,7 @@
 .navbar-inverse .nav .active > a:hover,
 .navbar-inverse .nav .active > a:focus {
   color: #ffffff;
-  background-color: #265573;
+  background-color: #34495d;
 }
 
 .navbar-inverse .navbar-link {
@@ -37,29 +37,21 @@
 
 .navbar-inverse .navbar-inner {
 
-background: -moz-linear-gradient(top,  rgba(38,85,115,1) 0%, rgba(38,85,115,1) 54%, rgba(38,85,115,0.71) 90%, rgba(38,85,115,0.58) 99%, rgba(38,85,115,0.56) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(38,85,115,1)), color-stop(54%,rgba(38,85,115,1)), color-stop(90%,rgba(38,85,115,0.71)), color-stop(99%,rgba(38,85,115,0.58)), color-stop(100%,rgba(38,85,115,0.56))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  rgba(38,85,115,1) 0%,rgba(38,85,115,1) 54%,rgba(38,85,115,0.71) 90%,rgba(38,85,115,0.58) 99%,rgba(38,85,115,0.56) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  rgba(38,85,115,1) 0%,rgba(38,85,115,1) 54%,rgba(38,85,115,0.71) 90%,rgba(38,85,115,0.58) 99%,rgba(38,85,115,0.56) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  rgba(38,85,115,1) 0%,rgba(38,85,115,1) 54%,rgba(38,85,115,0.71) 90%,rgba(38,85,115,0.58) 99%,rgba(38,85,115,0.56) 100%); /* IE10+ */
-background: linear-gradient(to bottom,  rgba(38,85,115,1) 0%,rgba(38,85,115,1) 54%,rgba(38,85,115,0.71) 90%,rgba(38,85,115,0.58) 99%,rgba(38,85,115,0.56) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#265573', endColorstr='#8f265573',GradientType=0 ); /* IE6-9 */
+
+background: #34495d;
 
 
 border: none;
 
 background-repeat: repeat-x;
 
-  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+/*  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
      -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
-          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);*/
 
 }
 
-#footer {
 
-  
-}
 
 
 
@@ -69,6 +61,7 @@ background-repeat: repeat-x;
  html,
       body {
         height: 100%;
+        background-color: #ecf0f1;
         /* The html and body elements cannot have any padding or margin. */
       }
 
@@ -89,8 +82,30 @@ background-repeat: repeat-x;
         height: 120px;
       }
       #footer {
-       /* background-color: #f5f5f5;*/
-        background-color: #000000;        
+        /*background-color: #c03a2a; */         /*  Pomigranate */
+       /* background-color: #e64c3b;  */        /*  Alizarin    */     
+
+        /*background-color: #d15527;  */        /*  Pumpkin     */
+        /*background-color: #e57d24; */         /*  Carrot      */
+        /*background-color: #f1c40f; */         /*  Sun Flower  */
+        /*background-color: #BE9B0C; */
+        /*background-color: #D1AA0D;*/ 
+
+        /*background-color: #f39c12; */         /*  Orange      */        
+        /*background-color: #4eb96e ;  */       /*  Emerald     */
+        /*background-color: #25b89a ;   */      /*  Turquoise   */
+        /*background-color: #24ad5f ; */        /*  Nephritis   */
+        /*background-color: #13a085 ;  */       /*  Green Sea   */
+        /*background-color: #3b97d3 ;  */       /*  Peter River */
+        /*background-color: #2980b9 ;  */       /*  Belize Hole */
+
+        background-color: #95a5a6;          /*  Concrete */
+        /*background-color: #ecf0f1;*/          /*  Clouds */
+        /*background-color: #7f8c8d;    */      /*  Asbestos */
+        /*background-color: #bdc3c7;*/          /*  Silver */
+
+        color: #34495d;
+
       }
 
       /* Lastly, apply responsive CSS fixes as necessary */
@@ -103,6 +118,11 @@ background-repeat: repeat-x;
         }
 
 
+      }
+
+      .foot-p {
+        /*color: #7f8c8d;*/
+        color: #5C6666;
       }
 
 
@@ -133,8 +153,6 @@ body {
 
 @media (max-width: 480px) and (max-width: 979px) {
 /* @media (min-width: 768px) and (max-width: 979px) */
-
-
 
 	.more-height {
 		margin-top: 10px;
