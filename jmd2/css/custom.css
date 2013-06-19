@@ -1,11 +1,7 @@
 .navbar-inner {
 	min-height: 112px;
 	margin-bottom: 20px;
-
 }
-
-
-
 
 .more-height {
 	margin-top: 150px;
@@ -14,10 +10,20 @@
 .navbar .brand {
 	float: right;
 }
+/********************************/
+/**********  Work  **************/
+/********************************/
 
-#footer {
+.thk-rule {
+  margin-top: 200px;
+  margin-bottom: 20px;
+  background-color: #95a5a6;
+  height: 12px;
+  width: 100%;
 
 }
+
+
 /********************************/
 /*********Color******************/
 /********************************/
@@ -101,9 +107,9 @@ background-repeat: repeat-x;
         /*background-color: #3b97d3 ;  */       /*  Peter River */
         /*background-color: #2980b9 ;  */       /*  Belize Hole */
 
-        /*background-color: #95a5a6; */         /*  Concrete */
+        background-color: #95a5a6;          /*  Concrete */
         /*background-color: #ecf0f1;*/          /*  Clouds */
-        background-color: #95a5a6;          /*  Asbestos */
+        /*background-color: #95a5a6; */         /*  Asbestos */
         /*background-color: #bdc3c7;*/          /*  Silver */
 
         color: #464D4D;
