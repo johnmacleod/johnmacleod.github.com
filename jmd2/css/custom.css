@@ -14,15 +14,21 @@
 /**********  Work  **************/
 /********************************/
 
-.thk-rule {
-  margin-top: 200px;
+.thk-rule-first {
+  margin-top: 170px;
   margin-bottom: 20px;
   background-color: #95a5a6;
   height: 12px;
   width: 100%;
-
 }
 
+.thk-rule {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  background-color: #95a5a6;
+  height: 12px;
+  width: 100%;
+}
 
 /********************************/
 /*********Color******************/
