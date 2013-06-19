@@ -4,15 +4,7 @@
 
 }
 
-.carousel-caption {
-/*position: absolute;
-right: 0;
-bottom: 0;
-left: 0;
-padding: 15px;
-background: #333333;*/
-background: rgba(0, 0, 0, 0.18);
-}
+
 
 
 .more-height {
@@ -133,21 +125,73 @@ background-repeat: repeat-x;
       .foot-p {
         /*color: #7f8c8d;*/
         color: #5C6666;
+        float: right;
       }
 
 
+/***********************/
+/******* Carousel ******/
+/***********************/
+
+/*Dissolve*/
+.carousel .item {
+  -webkit-transition: opacity 3s; 
+  -moz-transition: opacity 3s; 
+  -ms-transition: opacity 3s; 
+  -o-transition: opacity 3s; 
+  transition: opacity 3s;
+}
+.carousel .active.left {left:0;opacity:0;z-index:2;}
+.carousel .next {left:0;opacity:1;z-index:1;}
+
+
+
+.carousel-caption {
+/*position: absolute;
+right: 0;
+bottom: 0;
+left: 0;
+padding: 15px;
+background: #333333;*/
+background: rgba(0, 0, 0, 0.18); 
+}
+
+
+/********************/
+/***** navbar *******/
+/********************/
+
+
+.btn-navbar {
+  background-color: #f1c40f !important;
+  *background-color: #f1c40f !important;
+  background-repeat: repeat-x !important;
+  border: solid 2px;
+   border-color: #f1c40f #f1c40f #f1c40f !important;
+   /*background-image: linear-gradient(top, #f1c40f, #f1c40f) !important;*/
+   background: #f1c40f;
+}
+
+.navbar .btn-navbar:hover,
+.navbar .btn-navbar:focus,
+.navbar .btn-navbar:active,
+.navbar .btn-navbar.active,
+.navbar .btn-navbar.disabled,
+.navbar .btn-navbar[disabled] {
+  color: #ffffff;
+  background-color: #f1c40f;
+  /**background-color: #d9d9d9;*/
+  *background-color: #f1c40f;
+}
+
+
+
+
+
+
 /********************/
 /********************/
 /********************/
-
-
-
-
-
-
-
-
-
 
 
 @media (max-width: 979px) {
@@ -162,10 +206,7 @@ body {
 
 }
 
-.navbar-inverse .btn-navbar:hover, .navbar-inverse .btn-navbar:focus, .navbar-inverse .btn-navbar:active, .navbar-inverse .btn-navbar.active, .navbar-inverse .btn-navbar.disabled, .navbar-inverse .btn-navbar[disabled] {
-color: #ffffff;
-background-color: #d15527;
-}
+
 
 }
 /*foo*/
