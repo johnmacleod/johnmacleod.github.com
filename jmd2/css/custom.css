@@ -201,6 +201,11 @@ body {
 	padding-right: 0;
 }
 
+#wrap {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .more-height {
   margin-top: 10px;
 
@@ -218,7 +223,12 @@ body {
 @media (max-width: 480px) and (max-width: 979px) {
 /* @media (min-width: 768px) and (max-width: 979px) */
 
-  body {
+body {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+  #wrap {
     margin-left: 10px;
     margin-right: 10px;
   }
