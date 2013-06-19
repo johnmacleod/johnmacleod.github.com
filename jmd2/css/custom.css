@@ -218,6 +218,11 @@ body {
 @media (max-width: 480px) and (max-width: 979px) {
 /* @media (min-width: 768px) and (max-width: 979px) */
 
+  #wrap {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
 	.more-height {
 		margin-top: 10px;
 	}
@@ -225,6 +230,10 @@ body {
 		min-height: 95px;
 		margin-bottom: 20px;
 	}
+
+  .space {
+    margin-left: 50px;
+  }
 
 }
 
