@@ -4,7 +4,7 @@
 }
 
 .more-height {
-	margin-top: 150px;
+	margin-top: 130px;
 }
 
 .navbar .brand {
@@ -20,6 +20,9 @@
   display: inline;
 }
 
+.push-right {
+  float: right;
+}
 
 
 
@@ -36,7 +39,7 @@
 }
 
 .thk-rule {
-  margin-top: 40px;
+  margin-top: 20px;
   margin-bottom: 20px;
   background-color: #95a5a6;
   height: 12px;
@@ -148,6 +151,7 @@ background-repeat: repeat-x;
           margin-bottom: 10px;
         }
 
+
       }
 
       .foot-p {
@@ -181,8 +185,21 @@ bottom: 0;
 left: 0;
 padding: 15px;
 background: #333333;*/
-background: rgba(0, 0, 0, 0.18); 
+background: rgba(0, 0, 0, 0.38); 
 }
+
+@media (max-width: 480px) {
+
+.carousel-caption h4 {
+  font-size: 16px;
+}
+
+.carousel-caption p {
+  font-size: 12px;
+}
+
+}
+
 
 
 /********************/
@@ -212,11 +229,6 @@ background: rgba(0, 0, 0, 0.18);
   *background-color: #f1c40f;
 }
 
-
-
-
-
-
 /********************/
 /********************/
 /********************/
@@ -235,11 +247,9 @@ body {
 }
 
 .more-height {
-  margin-top: 10px;
+  margin-top: -20px;
 
 }
-
-
 
 }
 /*foo*/
@@ -262,7 +272,7 @@ body {
   }
 
 	.more-height {
-		margin-top: 10px;
+		margin-top: -20px;
 	}
 	.navbar-inner {
 		min-height: 95px;
@@ -281,7 +291,7 @@ body {
 @media (max-width: 767px) {
 
 .more-height {
-	margin-top: 10px;
+	margin-top: -20px;
 
 }
 
