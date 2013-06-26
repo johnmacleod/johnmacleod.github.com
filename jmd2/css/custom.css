@@ -26,6 +26,7 @@
 
 .myphoto {
   margin-right: 10px;
+  float: left;
 }
 
 
@@ -109,11 +110,18 @@ background-repeat: repeat-x;
        margin: 0 auto -120px;
       }
 
+      .foot-list {
+        text-decoration: none;
+        list-style-type: none;
+        margin: 0 0 0 0;
+      }
+
       /* Set the fixed height of the footer here */
       #push,
       #footer {
         /*height: 60px;*/
-        height: 120px;
+        height: 200px;
+        margin-top: 15px;
       }
       #footer {
         /*background-color: #c03a2a; */         /*  Pomigranate */
@@ -155,13 +163,25 @@ background-repeat: repeat-x;
           margin-bottom: 10px;
         }
 
+        .thk-rule-first {
+          margin-top: 20px;
+        }
+
 
       }
 
-      .foot-p {
+      .foot-R {
         /*color: #7f8c8d;*/
         color: #5C6666;
         float: right;
+      }
+
+      .foot-L {
+        /*color: #7f8c8d;*/
+        margin: 10px 0 10px 0;
+        color: #5C6666;
+        float: left;
+        display: inline-block;
       }
 
 
@@ -266,6 +286,10 @@ body {
 
 }
 
+    .thk-rule-first {
+    margin-top: 12px;
+  }
+
 }
 /*foo*/
 
@@ -297,6 +321,8 @@ body {
   .space {
     margin-left: 50px;
   }
+
+
 
 }
 
