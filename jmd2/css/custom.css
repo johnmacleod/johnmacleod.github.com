@@ -175,6 +175,11 @@ background-repeat: repeat-x;
 
       }
 
+      .foot-copyright {
+        font-size: 10px;
+        color: #7E8C8C;
+      }
+
       .foot-R {
         /*color: #7f8c8d;*/
         color: #5C6666;
