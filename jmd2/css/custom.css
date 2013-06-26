@@ -120,7 +120,7 @@ background-repeat: repeat-x;
       #push,
       #footer {
         /*height: 60px;*/
-        height: 200px;
+        height: 170px;
         margin-top: 15px;
       }
       #footer {
@@ -148,6 +148,11 @@ background-repeat: repeat-x;
 
         color: #464D4D;
 
+      }
+
+      .foot-email {
+        color: #464D4D;
+        text-decoration: underline;
       }
 
       /* Lastly, apply responsive CSS fixes as necessary */
