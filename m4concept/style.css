@@ -1,0 +1,66 @@
+
+#logo {
+  display: block;
+  margin: 82px auto 20px auto;
+  width: 264px;
+}
+
+nav { margin: 0 auto 0 auto; }
+
+.ctr-nav {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.ctr-nav li {
+	display: inline;
+	margin-right: 10.5em;
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+a:link {
+    text-decoration: none;
+	color: #747678;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    /*text-decoration: underline;*/
+    color: #616365;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.ctr-nav a {
+	display: inline-block;
+	padding: 10px;
+}
+
+#slider-plc {
+	display: block;
+  	margin: 0 auto 0 auto;
+  	width: 941px;
+}
+
+.last { 
+	/*margin-bottom: 0 !important; */
+	margin-right: 0 !important; 
+}
+
+.company-name {
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 13px;
+	color: #747678;
+	margin: 82px 0 0 0;
+	text-align: center;
+
+}
