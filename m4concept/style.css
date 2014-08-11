@@ -16,29 +16,22 @@ nav { margin: 0 auto 0 auto; }
 
 .ctr-nav li {
 	display: inline;
-	margin-right: 10.5em;
+	margin-right: 10.3em;
 	font-family: 'Julius Sans One', sans-serif;
 	font-size: 13px;
 	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 1px;
 }
 
 a:link {
     text-decoration: none;
-	color: #747678;
+	color: #999999;
 }
 
-a:visited {
-    text-decoration: none;
-}
-
-a:hover {
-    /*text-decoration: underline;*/
-    color: #616365;
-}
-
-a:active {
-    text-decoration: underline;
-}
+a:visited { text-decoration: none; }
+a:hover { color: #B0A19E; }
+a:active { text-decoration: none; }
 
 .ctr-nav a {
 	display: inline-block;
@@ -51,10 +44,7 @@ a:active {
   	width: 941px;
 }
 
-.last { 
-	/*margin-bottom: 0 !important; */
-	margin-right: 0 !important; 
-}
+.last { margin-right: 0 !important; }
 
 .company-name {
 	font-family: 'Julius Sans One', sans-serif;
@@ -62,5 +52,4 @@ a:active {
 	color: #747678;
 	margin: 82px 0 0 0;
 	text-align: center;
-
 }
