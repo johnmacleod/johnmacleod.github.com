@@ -21,16 +21,13 @@ nav { margin: 0 auto 0 auto; }
 	font-size: 13px;
 	font-weight: 400;
 	text-transform: uppercase;
+	color: #999999;
 	letter-spacing: 1px;
 }
 
-a:link {
-    text-decoration: none;
-	color: #999999;
-}
-
+a:link { text-decoration: none; }
 a:visited { text-decoration: none; }
-a:hover { color: #B0A19E; }
+a:hover { color: #A6A6A6; }
 a:active { text-decoration: none; }
 
 .ctr-nav a {
